@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'bumper_py_examples'
+package_name = 'bumperbot_py_examples'
 
 setup(
     name=package_name,
