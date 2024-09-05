@@ -28,3 +28,13 @@ DDS middleware
 --------------
 * communication protocol
 * can be implemented self-DDS-version
+
+# Mobile Robots
+There are 3 different artitechtures for locomations
+- Differential Drive
+- Ackerman Drive
+- Omnidirectional Drive
+
+For Differential Drive the state space vector:
+    | x | y | theta |
+    |---|---|---|
