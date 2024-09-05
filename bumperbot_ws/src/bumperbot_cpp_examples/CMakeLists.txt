@@ -20,11 +20,7 @@ ament_target_dependencies(simple_subscriber rclcpp std_msgs)
 
 install(TARGETS
   simple_publisher
-  DESTINATION lib/${PROJECT_NAME}
-)
-
-install(TARGETS
-simple_subscriber
+  simple_subscriber
   DESTINATION lib/${PROJECT_NAME}
 )
 
