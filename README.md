@@ -37,4 +37,4 @@ There are 3 different artitechtures for locomations
 
 For Differential Drive the state space vector:
     | x | y | theta |
-    |---|---|---|
+    |---|---|-------|
