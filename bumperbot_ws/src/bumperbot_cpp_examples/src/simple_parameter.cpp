@@ -7,7 +7,7 @@ using std::placeholders::_1;
 class SimpleParameter : public rclcpp::Node
 {
     public:
-        SimpleParameter() : Node("simple:parameter")
+        SimpleParameter() : Node("simple_parameter")
         {
             declare_parameter<int>("simple_int_param", 28);
             declare_parameter<std::string>("simple_string_param", "yalin");
