@@ -36,6 +36,5 @@ There are 3 different artitechtures for locomations
 - Omnidirectional Drive
 
 For Differential Drive the state space vector:
-$$   
-\begin{bmatrix} x & y & theta \end{bmatrix}
-$$
+[x y theta]
+
