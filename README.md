@@ -53,3 +53,14 @@ total_angular_velo = (w_left*phi_left_dot)/ws - (w_right*phi_right_dot)/ws
          [  w_right/2   w_right/2   ]   [ phi_right_dot ]
 [v w]T = |                          | * |               | 
          [  w_right/ws  w_right/ws  ]   [ phi_left_dot  ]
+
+## velocity in the world frame
+
+[   x_dot   ]   [ cos(theta) -sin(theta)  0 ]    [ v ]
+|   y_dot   | = | sin(theta)  cos(theta)  0 |  * | 0 | 
+[ theta_dot ]   [    0         0          1 ]    [ w ]
+
+## Forward Kinematics 
+[   x_dot   ]   [ w_right*cos(theta)/2  w_right*cos(theta)/2 ]    [ phi_right_dot ]
+|   y_dot   | = | w_right*sin(theta)/2  w_right*sin(theta)/2 |  * |               | 
+[ theta_dot ]   [      w_right/ws            -w_right/ws     ]    [ phi_left_dot  ]
