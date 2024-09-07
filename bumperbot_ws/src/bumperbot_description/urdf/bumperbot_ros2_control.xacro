@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 
-<robot name="bumperbot" xmlns:xacro="http://ros.org/wiki/xacro">
+<robot name="bumperbot" xmlns:xacro="http://www.ros.org/wiki/xacro">
     <ros2_control type="system" name="RobotSystem">
         <hardware>
             <plugin>gazebo_ros2_control/GazeboSystem</plugin> <!-- the simulated hardware interface for gazebo -->
@@ -16,7 +16,7 @@
             <state_interface name="velocity"/>
         </joint>
 
-        <joint name="wheel_lrft_joint">
+        <joint name="wheel_left_joint">
             <command_interface name="velocity">
                 <param name="min">-1</param>
                 <param name="max">1</param>
