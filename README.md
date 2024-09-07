@@ -38,3 +38,18 @@ There are 3 different artitechtures for locomations
 For Differential Drive the state space vector:
 [x y theta]
 
+# Differential kinematics
+## Velocity
+
+### linear velocity
+total_linear_velo = (v_wheel_1 + v_wheel_2) / 2
+v_wheel_1 = (w_right * phi_right_dot) / 2 + (w_left * phi_left_dot) / 2
+
+### angular velocity
+total_angular_velo = (w_left*phi_left_dot)/ws - (w_right*phi_right_dot)/ws
+
+### total velo
+
+         [  w_right/2   w_right/2   ]   [ phi_right_dot ]
+[v w]T = |                          | * |               | 
+         [  w_right/ws  w_right/ws  ]   [ phi_left_dot  ]
