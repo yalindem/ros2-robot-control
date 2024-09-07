@@ -2,7 +2,7 @@
 
 using std::placeholders::_1;
 
-SimpleTurtlesimKinemetics::SimpleTurtlesimKinemetics(const std::string& name) : rclcpp::Node(name)
+SimpleTurtlesimKinemetics::SimpleTurtlesimKinemetics(const std::string& name) : Node(name)
 {
     turtle1_pose_sub_ = create_subscription<turtlesim::msg::Pose>("/turtle1/pose", 10, std::bind(&SimpleTurtlesimKinemetics::turtle1PoseCallback, _1));
     turtle2_pose_sub_ = create_subscription<turtlesim::msg::Pose>("/turtle2/pose", 10, std::bind(&SimpleTurtlesimKinemetics::turtle2PoseCallback, _1));
@@ -25,7 +25,7 @@ void SimpleTurtlesimKinemetics::turtle2PoseCallback(const turtlesim::msg::Pose& 
 int main(int argc, char *argv[])
 {
     rclcpp::init(argc, argv);
-    auto node = std::make_shared<SimpleTurtlesimKinemetics>();
+    auto node = std::make_shared<SimpleTurtlesimKinemetics>("simple_turtlesim_kinemaatics");
     rclcpp::spin(node);
     rclcpp::shutdown();
     return 0;
