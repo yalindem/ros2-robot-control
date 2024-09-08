@@ -5,6 +5,9 @@
 #include <tf2_ros/static_transform_broadcaster.h>
 #include <tf2_ros/transform_broadcaster.h>
 #include <geometry_msgs/msg/transform_stamped.hpp>
+#include <bumperbot_msgs/srv/get_transform.hpp>
+#include <tf2_ros/buffer.h>
+#include <tf2_ros/transform_listener.h>
 
 #include <memory>
 
@@ -21,10 +24,15 @@ class SimpleTfkinematics : public rclcpp::Node
 
         rclcpp::TimerBase::SharedPtr timer_;
         
+        rclcpp::Service<bumperbot_msgs::srv::GetTransform>::SharedPtr get_transform_srv_;
+        std::unique_ptr<tf2_ros::Buffer> tf_buffer_;
+        std::shared_ptr<tf2_ros::TransformListener> tf_listener_{nullptr};
         double x_increment_;
         double last_x_;
         
         void timerCallback();
+        bool getTransformCallback(const std::shared_ptr<bumperbot_msgs::srv::GetTransform::Request>& req, 
+                                  const std::shared_ptr<bumperbot_msgs::srv::GetTransform::Response>& res);
 };
 
 #endif
