@@ -119,3 +119,12 @@ More advanced encoders: absolute encoders
 * phi_dor_left = (phi_1_left - phi_0_left) / (t_1 - t_0)  = delta_phi_left / delta_t
 * v = wheel_radius/2 * delta_phi_right / delta_t + wheel_radius/2 * delta_phi_left / delta_t
 * w = wheel_radius/wheel_separation * delta_phi_right / delta_t + wheel_radius/wheel_separation * delta_phi_left / delta_t
+
+wheel odometry:
+---------------
+
+pos = integral v dt => integral (wheel_radius*phi_dot_right / 2 + wheel_radius*phi_dot_left / 2) dt 
+                       = wheel_radius * delta_phi_right / 2 + wheel_radius * delta_phi_left / 2
+
+orientation = integral w dt = integral (wheel_radius * phi_dot_right / wheel_separation - wheel_radius * phi_dot_left / wheel_separation) dt
+            = wheel_radius * delta_phi_right / wheel_separation - wheel_radius * delta_phi_left / wheel_separation
