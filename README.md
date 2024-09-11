@@ -95,4 +95,27 @@ Rotation COmposition: q_1 * q_2
 
 Inverse: q^(-1) = a - bi - cj -dk
 
+# Localization
 
+- Wheel Odometry
+- Laser Odometry
+- Visual Odometry
+
+## Wheel Odometry
+
+Encoder sensor is use to get the number of the rotation
+Light reciever provides a binary information 1 or 0, depending on whether it recieves the light beam from the light source or not.
+More advanced encoders: absolute encoders
+
+## Differential Inverse Kinematics
+
+  [ v ]    [ wheel_radius/2                              wheel_radius/2    ]   [ phi_dot_right  ]
+* |   | =  |                                                               | * |                |
+  [ w ]    [ wheel_radius/wheel_separation   -wheel_radius/wheel_separation]   [ Phi_dot_left   ]
+
+* v = s * t
+
+* phi_dor_right = (phi_1_right - phi_0_right) / (t_1 - t_0) = delta_phi_right / delta_t 
+* phi_dor_left = (phi_1_left - phi_0_left) / (t_1 - t_0)  = delta_phi_left / delta_t
+* v = wheel_radius/2 * delta_phi_right / delta_t + wheel_radius/2 * delta_phi_left / delta_t
+* w = wheel_radius/wheel_separation * delta_phi_right / delta_t + wheel_radius/wheel_separation * delta_phi_left / delta_t
