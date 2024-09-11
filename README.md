@@ -64,3 +64,25 @@ total_angular_velo = (w_left*phi_left_dot)/ws - (w_right*phi_right_dot)/ws
 [   x_dot   ]   [ w_right*cos(theta)/2  w_right*cos(theta)/2 ]    [ phi_right_dot ]
 |   y_dot   | = | w_right*sin(theta)/2  w_right*sin(theta)/2 |  * |               | 
 [ theta_dot ]   [      w_right/ws            -w_right/ws     ]    [ phi_left_dot  ]
+
+# Angle Representations
+    - Euler Angle
+    - Quaternion
+
+## Euler Angles
+                        [cos(theta) -sin(theta) 0]
+rotation about z axis:  |sin(theta) cos(theta)  0|   YAW
+                        [     0          0      1]
+
+
+                        [cos(phi)  0   -sin(phi)  ]
+rotation about y axis:  |0         1      0       |  PITCH
+                        [-sin(phi) 0    cos(phi)  ]
+
+
+                        [1      0         0    ]
+rotation about x axis:  |0  cos(psi) -sin(psi) |     ROLL
+                        [0  sin(psi)  cos(psi) ]
+
+
+## Quaternion
