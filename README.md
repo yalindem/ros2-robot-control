@@ -86,3 +86,13 @@ rotation about x axis:  |0  cos(psi) -sin(psi) |     ROLL
 
 
 ## Quaternion
+
+q = a + bi + cj + dk
+
+Unitary: a^2 + b^2 + c^2 + d^2 = 1
+
+Rotation COmposition: q_1 * q_2
+
+Inverse: q^(-1) = a - bi - cj -dk
+
+
