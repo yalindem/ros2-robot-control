@@ -136,6 +136,11 @@ orientation = integral w dt = integral (wheel_radius * phi_dot_right / wheel_sep
 P(A n B) = P(A|B) * P(B)  P(B n A) = P(B|A) * P(A)
 P(A n B) = P(B n A)
 P(A|B) * P(B) = P(B|A) * P(A)
+
 Bayes rule: P(A|B) = (P(B|A) * P(A)) / P(B)
-P(A|B): Posterior probability, represents the updated probability of the event A given that we observed the occurence of a new event
-P(A): 
+
+P(A|B): Posterior probability, represents the updated probability of the event A given that we observed the occurence of a new event.
+P(A): prior probability: represents the initial probability we estimated for the event A.
+P(B): marginal probability: represents the overall probability of observing the event B at all
+P(B|A): likelihood and indicated the probability of the event B assuming that the event A occurred.
+
