@@ -50,39 +50,39 @@ total_angular_velo = (w_left*phi_left_dot)/ws - (w_right*phi_right_dot)/ws
 
 ### total velo
 
-         [  w_right/2   w_right/2   ]   [ phi_right_dot ]
+         |  w_right/2   w_right/2   |   | phi_right_dot |
 [v w]T = |                          | * |               | 
-         [  w_right/ws  w_right/ws  ]   [ phi_left_dot  ]
+         |  w_right/ws  w_right/ws  |   | phi_left_dot  |
 
 ## velocity in the world frame
 
-[   x_dot   ]   [ cos(theta) -sin(theta)  0 ]    [ v ]
+|   x_dot   |   | cos(theta) -sin(theta)  0 |    | v |
 |   y_dot   | = | sin(theta)  cos(theta)  0 |  * | 0 | 
-[ theta_dot ]   [    0         0          1 ]    [ w ]
+| theta_dot |   |    0         0          1 |    | w |
 
 ## Forward Kinematics 
-[   x_dot   ]   [ w_right*cos(theta)/2  w_right*cos(theta)/2 ]    [ phi_right_dot ]
+|   x_dot   |   | w_right*cos(theta)/2  w_right*cos(theta)/2 |    | phi_right_dot |
 |   y_dot   | = | w_right*sin(theta)/2  w_right*sin(theta)/2 |  * |               | 
-[ theta_dot ]   [      w_right/ws            -w_right/ws     ]    [ phi_left_dot  ]
+| theta_dot |   |      w_right/ws            -w_right/ws     |    | phi_left_dot  |
 
 # Angle Representations
     - Euler Angle
     - Quaternion
 
 ## Euler Angles
-                        [cos(theta) -sin(theta) 0]
+                        |cos(theta) -sin(theta) 0|
 rotation about z axis:  |sin(theta) cos(theta)  0|   YAW
-                        [     0          0      1]
+                        |     0          0      1|
 
 
-                        [cos(phi)  0   -sin(phi)  ]
+                        |cos(phi)  0   -sin(phi)  |
 rotation about y axis:  |0         1      0       |  PITCH
-                        [-sin(phi) 0    cos(phi)  ]
+                        |-sin(phi) 0    cos(phi)  |
 
 
-                        [1      0         0    ]
+                        |1      0         0    |
 rotation about x axis:  |0  cos(psi) -sin(psi) |     ROLL
-                        [0  sin(psi)  cos(psi) ]
+                        |0  sin(psi)  cos(psi) |
 
 
 ## Quaternion
@@ -109,9 +109,9 @@ More advanced encoders: absolute encoders
 
 ## Differential Inverse Kinematics
 
-  [ v ]    [ wheel_radius/2                              wheel_radius/2    ]   [ phi_dot_right  ]
+  | v |    | wheel_radius/2                              wheel_radius/2    |   | phi_dot_right  |
 * |   | =  |                                                               | * |                |
-  [ w ]    [ wheel_radius/wheel_separation   -wheel_radius/wheel_separation]   [ Phi_dot_left   ]
+  | w |    | wheel_radius/wheel_separation   -wheel_radius/wheel_separation|   | Phi_dot_left   |
 
 * v = s * t
 
@@ -128,3 +128,5 @@ pos = integral v dt => integral (wheel_radius*phi_dot_right / 2 + wheel_radius*p
 
 orientation = integral w dt = integral (wheel_radius * phi_dot_right / wheel_separation - wheel_radius * phi_dot_left / wheel_separation) dt
             = wheel_radius * delta_phi_right / wheel_separation - wheel_radius * delta_phi_left / wheel_separation
+
+# Probability for Robotics
