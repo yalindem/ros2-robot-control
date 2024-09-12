@@ -130,3 +130,10 @@ orientation = integral w dt = integral (wheel_radius * phi_dot_right / wheel_sep
             = wheel_radius * delta_phi_right / wheel_separation - wheel_radius * delta_phi_left / wheel_separation
 
 # Probability for Robotics
+$$
+\begin{pmatrix}
+1 & 2 & 3 \\
+4 & 5 & 6 \\
+7 & 8 & 9
+\end{pmatrix}
+$$
