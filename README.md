@@ -56,8 +56,12 @@ v \\
 w
 \end{pmatrix}
 =
+\begin{pmatrix}
+wheel_radius/2 & wheel_radius/2 \\
+wheel_radius/wheel_separation & wheel_radius/wheel_separation 
+\end{pmatrix}
 $$ 
- 
+
 
          |  w_right/2   w_right/2   |   | phi_right_dot |
 [v w]T = |                          | * |               | 
