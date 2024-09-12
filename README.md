@@ -128,3 +128,14 @@ pos = integral v dt => integral (wheel_radius*phi_dot_right / 2 + wheel_radius*p
 
 orientation = integral w dt = integral (wheel_radius * phi_dot_right / wheel_separation - wheel_radius * phi_dot_left / wheel_separation) dt
             = wheel_radius * delta_phi_right / wheel_separation - wheel_radius * delta_phi_left / wheel_separation
+
+# Probability for Robotics
+
+## Bayes Rule
+
+P(A n B) = P(A|B) * P(B)  P(B n A) = P(B|A) * P(A)
+P(A n B) = P(B n A)
+P(A|B) * P(B) = P(B|A) * P(A)
+Bayes rule: P(A|B) = (P(B|A) * P(A)) / P(B)
+P(A|B): Posterior probability, represents the updated probability of the event A given that we observed the occurence of a new event
+P(A): 
