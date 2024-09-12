@@ -50,7 +50,7 @@ total_angular_velo = (w_left*phi_left_dot)/ws - (w_right*phi_right_dot)/ws
 
 ### total velo
 
-![Matrix Equation](https://latex.codecogs.com/svg.image?\begin{pmatrix}v\\w\end{pmatrix}=\begin{pmatrix}\frac{\text{wheel\_radius}}{2}&\frac{\text{wheel\_radius}}{2}\\\frac{\text{wheel\_radius}}{\text{wheel\_separation}}&-\frac{\text{wheel\_radius}}{\text{wheel\_separation}}\end{pmatrix}\begin{pmatrix}\dot{\phi}_{\text{right}}\\\dot{\phi}_{\text{left}}\end{pmatrix})
+![Matrix Equation](https://latex.codecogs.com/svg.image?$$\begin{pmatrix}v\\w\end{pmatrix}=\begin{pmatrix}\frac{\text{wheel\_radius}}{2}&\frac{\text{wheel\_radius}}{2}\\\frac{\text{wheel\_radius}}{\text{wheel\_separation}}&-\frac{\text{wheel\_radius}}{\text{wheel\_separation}}\end{pmatrix}\begin{pmatrix}\dot{\phi}_{\text{right}}\\\dot{\phi}_{\text{left}}\end{pmatrix}$$)
 
 
 
