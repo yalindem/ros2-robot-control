@@ -49,7 +49,6 @@ v_wheel_1 = (w_right * phi_right_dot) / 2 + (w_left * phi_left_dot) / 2
 total_angular_velo = (w_left*phi_left_dot)/ws - (w_right*phi_right_dot)/ws
 
 ### total velo
-
 $$
 \begin{pmatrix}
 v \\
