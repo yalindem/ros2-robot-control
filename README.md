@@ -50,6 +50,13 @@ total_angular_velo = (w_left*phi_left_dot)/ws - (w_right*phi_right_dot)/ws
 
 ### total velo
 
+$$
+\begin{pmatrix}
+v \\
+w
+\end{pmatrix}
+$$ = 
+
          |  w_right/2   w_right/2   |   | phi_right_dot |
 [v w]T = |                          | * |               | 
          |  w_right/ws  w_right/ws  |   | phi_left_dot  |
