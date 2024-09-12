@@ -55,7 +55,8 @@ $$
 v \\
 w
 \end{pmatrix}
-$$ = 
+$$
+=
 
          |  w_right/2   w_right/2   |   | phi_right_dot |
 [v w]T = |                          | * |               | 
