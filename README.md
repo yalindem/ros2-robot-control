@@ -50,9 +50,9 @@ total_angular_velo = (w_left*phi_left_dot)/ws - (w_right*phi_right_dot)/ws
 
 ### total velo
 
-![Matrix Equation](https://latex.codecogs.com/svg.image?$$\begin{pmatrix}v\\w\end{pmatrix}=\begin{pmatrix}\frac{\text{wheel\_radius}}{2}&\frac{\text{wheel\_radius}}{2}\\\frac{\text{wheel\_radius}}{\text{wheel\_separation}}&-\frac{\text{wheel\_radius}}{\text{wheel\_separation}}\end{pmatrix}\begin{pmatrix}\dot{\phi}_{\text{right}}\\\dot{\phi}_{\text{left}}\end{pmatrix}$$)
-
-
+         |  w_right/2   w_right/2   |   | phi_right_dot |
+[v w]T = |                          | * |               | 
+         |  w_right/ws  w_right/ws  |   | phi_left_dot  |
 
 ## velocity in the world frame
 
@@ -128,12 +128,3 @@ pos = integral v dt => integral (wheel_radius*phi_dot_right / 2 + wheel_radius*p
 
 orientation = integral w dt = integral (wheel_radius * phi_dot_right / wheel_separation - wheel_radius * phi_dot_left / wheel_separation) dt
             = wheel_radius * delta_phi_right / wheel_separation - wheel_radius * delta_phi_left / wheel_separation
-
-# Probability for Robotics
-$$
-\begin{pmatrix}
-1 & 2 & 3 \\
-4 & 5 & 6 \\
-7 & 8 & 9
-\end{pmatrix}
-$$
