@@ -60,12 +60,14 @@ w
 wheel_radius/2 & wheel_radius/2 \\
 wheel_radius/wheel_separation & wheel_radius/wheel_separation 
 \end{pmatrix}
+*
+\begin{pmatrix}
+phi_right_dot \\
+phi_left_dot 
+\end{pmatrix}
 $$ 
 
 
-         |  w_right/2   w_right/2   |   | phi_right_dot |
-[v w]T = |                          | * |               | 
-         |  w_right/ws  w_right/ws  |   | phi_left_dot  |
 
 ## velocity in the world frame
 
