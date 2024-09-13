@@ -144,3 +144,17 @@ P(A): prior probability: represents the initial probability we estimated for the
 P(B): marginal probability: represents the overall probability of observing the event B at all
 P(B|A): likelihood and indicated the probability of the event B assuming that the event A occurred.
 
+# Kalman Filter
+odom: mu_1, sigma_1
+imu:  mu_2, sigma_2
+
+update: 
+mu3 = (sigma_2^2*mu_1 + sigma_1^2*mu_2) / (sigma_2^2 + sigma_1^2)
+sigma_3^2 = 1 / ( (1/sigma_2^2) + (sigma_1^2)) 
+
+prediction:
+prior belief: mu_1 , sigma_1
+motion: mu_2, sigma_2
+
+mu_3 = mu_1 + mu_2
+sigma_3 = sigma_1 + sigma_2
