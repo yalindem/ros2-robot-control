@@ -19,8 +19,10 @@ include_directories(
 )
 
 add_executable(kalman_filter src/kalman_filter.cpp)
-
 ament_target_dependencies(kalman_filter rclcpp sensor_msgs nav_msgs)
+
+add_executable(imu_republisher src/imu_republisher.cpp)
+ament_target_dependencies(imu_republisher rclcpp sensor_msgs)
 
 install(
   DIRECTORY include
@@ -29,7 +31,13 @@ install(
 
 install(TARGETS
   kalman_filter
+  imu_republisher
   DESTINATION lib/${PROJECT_NAME}
+)
+
+install(
+  DIRECTORY launch config
+  DESTINATION share/${PROJECT_NAME}
 )
 
 
