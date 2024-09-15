@@ -109,6 +109,11 @@ More advanced encoders: absolute encoders
 
 ## Differential Inverse Kinematics
 
+$$ {\left\lbrack \matrix{v \cr w} \right\rbrack} 
+* \left\lbrack \matrix{wheel_radius/2 & wheel_radius/2 \cr wheel_radius/wheel_separation  & -wheel_radius/wheel_separation} \right\rbrack
+= \left\lbrack \matrix{2 & 3 \cr 4 & 5} \right\rbrack
+$$
+
   | v |    | wheel_radius/2                              wheel_radius/2    |   | phi_dot_right  |
 * |   | =  |                                                               | * |                |
   | w |    | wheel_radius/wheel_separation   -wheel_radius/wheel_separation|   | Phi_dot_left   |
