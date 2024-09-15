@@ -56,26 +56,8 @@ total_angular_velo = (w_left*phi_left_dot)/ws - (w_right*phi_right_dot)/ws
 
 ## velocity in the world frame
 
-\[
-\begin{bmatrix}
-\dot{x} \\
-\dot{y} \\
-\dot{\theta}
-\end{bmatrix}
-=
-\begin{bmatrix}
-\cos(\theta) & -\sin(\theta) & 0 \\
-\sin(\theta) & \cos(\theta) & 0 \\
-0 & 0 & 1
-\end{bmatrix}
-\cdot
-\begin{bmatrix}
-v \\
-0 \\
-w
-\end{bmatrix}
-\]
 
+![Matrix Multiplication]([https://latex.codecogs.com/png.latex?C_%7Bij%7D%20%3D%20%5Csum_%7Bk%7D%20A_%7Bik%7D%20%5Ccdot%20B_%7Bkj%7D](https://latex.codecogs.com/svg.image?\begin{bmatrix}\dot{x}\\\dot{y}\\\dot{\theta}\end{bmatrix}=\begin{bmatrix}\cos(\theta)&-\sin(\theta)&0\\\sin(\theta)&\cos(\theta)&0\\0&0&1\end{bmatrix}\begin{bmatrix}v\\0\\w\end{bmatrix}))
 |   x_dot   |   | cos(theta) -sin(theta)  0 |    | v |
 |   y_dot   | = | sin(theta)  cos(theta)  0 |  * | 0 | 
 | theta_dot |   |    0         0          1 |    | w |
