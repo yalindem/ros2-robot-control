@@ -56,6 +56,26 @@ total_angular_velo = (w_left*phi_left_dot)/ws - (w_right*phi_right_dot)/ws
 
 ## velocity in the world frame
 
+\[
+\begin{bmatrix}
+\dot{x} \\
+\dot{y} \\
+\dot{\theta}
+\end{bmatrix}
+=
+\begin{bmatrix}
+\cos(\theta) & -\sin(\theta) & 0 \\
+\sin(\theta) & \cos(\theta) & 0 \\
+0 & 0 & 1
+\end{bmatrix}
+\cdot
+\begin{bmatrix}
+v \\
+0 \\
+w
+\end{bmatrix}
+\]
+
 |   x_dot   |   | cos(theta) -sin(theta)  0 |    | v |
 |   y_dot   | = | sin(theta)  cos(theta)  0 |  * | 0 | 
 | theta_dot |   |    0         0          1 |    | w |
@@ -108,11 +128,6 @@ Light reciever provides a binary information 1 or 0, depending on whether it rec
 More advanced encoders: absolute encoders
 
 ## Differential Inverse Kinematics
-
-$$ {\left\lbrack \matrix{v \cr w} \right\rbrack} 
-* \left\lbrack \matrix{wheel_radius/2 & wheel_radius/2 \cr wheel_radius/wheel_separation  & -wheel_radius/wheel_separation} \right\rbrack
-= \left\lbrack \matrix{2 & 3 \cr 4 & 5} \right\rbrack
-$$
 
   | v |    | wheel_radius/2                              wheel_radius/2    |   | phi_dot_right  |
 * |   | =  |                                                               | * |                |
