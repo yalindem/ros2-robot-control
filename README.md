@@ -29,4 +29,4 @@ DDS middleware
 * communication protocol
 * can be implemented self-DDS-version
 
-Please read the docu.pdf
+Please read the docu.pdf for further detailed and technical information
