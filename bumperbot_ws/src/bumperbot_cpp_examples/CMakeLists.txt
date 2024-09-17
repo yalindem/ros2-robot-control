@@ -17,6 +17,9 @@ find_package(turtlesim REQUIRED)
 find_package(tf2_ros REQUIRED)
 find_package(bumperbot_msgs REQUIRED)
 find_package(tf2 REQUIRED)
+find_package(cv_bridge REQUIRED)
+find_package(image_transport REQUIRED)
+find_package(OpenCV REQUIRED)
 
 include_directories(include)
 
@@ -32,6 +35,8 @@ add_executable(simple_service_server src/simple_service_server.cpp)
 ament_target_dependencies(simple_service_server rclcpp bumperbot_msgs)
 add_executable(simple_service_client src/simple_service_client.cpp)
 ament_target_dependencies(simple_service_client rclcpp bumperbot_msgs)
+add_executable(simple_camera_subscriber src/simple_camera_subscriber.cpp)
+ament_target_dependencies(simple_camera_subscriber rclcpp cv_bridge image_transport OpenCV)
 
 
 #add_executable(simple_turtlesim_kinematics src/simple_turtlesim_kinematics.cpp)
@@ -49,6 +54,7 @@ install(TARGETS
   simple_tf_kinematics
   simple_service_server
   simple_service_client
+  simple_camera_subscriber
   #simple_turtlesim_kinematics
   DESTINATION lib/${PROJECT_NAME}
 )
