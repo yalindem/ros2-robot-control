@@ -189,5 +189,35 @@
     
   </joint>
 
+  <link name="camera_link">
+    <inertial>
+      <mass value="0.1" />
+      <origin xyz="0 0 0" />
+      <inertia ixx="0.0001" ixy="0.0" ixz="0.0" iyy="0.0001" iyz="0.0" izz="0.0001" />
+    </inertial>
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.05 0.05 0.1"/>
+      </geometry>
+      <material name="grey">
+        <color rgba="0.1 0.1 0.1 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.0" rpy="0 0 0"/>
+      <geometry>
+          <box size="0.05 0.05 0.1"/>
+      </geometry>
+    </collision>
+</link>
+
+<!-- Joint to attach camera to base_link (modify base_link to whatever link the camera is attached to) -->
+<joint name="camera_joint" type="fixed">
+    <parent link="base_link"/> <!-- Attach camera to the base or any other link -->
+    <child link="camera_link"/>
+    <origin xyz="0 0 0.15" rpy="0 0 0"/> <!-- Position relative to the robot -->
+</joint>
+
 
 </robot>
