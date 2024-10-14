@@ -1,0 +1,1 @@
+/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/pcl_recorder/ament_cmake_core/pcl_recorderConfig-version.cmake

@@ -1,0 +1,729 @@
+[0.040s] Invoking command in '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/src/carla_ros/carla_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs
+[0.854s] -- The C compiler identification is GNU 11.4.0
+[0.855s] -- The CXX compiler identification is GNU 11.4.0
+[0.856s] -- Detecting C compiler ABI info
+[0.857s] -- Detecting C compiler ABI info - done
+[0.857s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.857s] -- Detecting C compile features
+[0.857s] -- Detecting C compile features - done
+[0.858s] -- Detecting CXX compiler ABI info
+[0.858s] -- Detecting CXX compiler ABI info - done
+[0.858s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.858s] -- Detecting CXX compile features
+[0.858s] -- Detecting CXX compile features - done
+[0.859s] -- Found ros_environment: 3.2.2 (/opt/ros/humble/share/ros_environment/cmake)
+[0.859s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.859s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.859s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.859s]   CMake.
+[0.859s] 
+[0.860s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.860s]   CMake that the project does not need compatibility with older versions.
+[0.860s] 
+[0.860s] [0m
+[0.896s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.960s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.017s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.080s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.091s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.106s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.139s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.176s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.204s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[1.247s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.302s] -- Found diagnostic_msgs: 4.2.4 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+[1.354s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.872s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[1.877s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[1.882s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[1.888s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.463s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.676s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.715s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.721s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.767s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.767s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.768s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.768s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.789s] -- Found PythonExtra: .so  
+[2.904s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[2.907s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[2.917s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.943s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.944s] -- Added test 'lint_cmake' to check CMake code style
+[2.945s] -- Added test 'xmllint' to check XML markup files
+[2.950s] -- Configuring done
+[3.032s] -- Generating done
+[3.035s] -- Build files have been written to: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_msgs
+[3.045s] Invoked command in '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/src/carla_ros/carla_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs
+[3.047s] Invoking command in '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_msgs -- -j16 -l16
+[3.121s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.140s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.150s] [  0%] Built target ament_cmake_python_symlink_carla_msgs
+[3.502s] running egg_info
+[3.503s] creating carla_msgs.egg-info
+[3.503s] writing carla_msgs.egg-info/PKG-INFO
+[3.503s] writing dependency_links to carla_msgs.egg-info/dependency_links.txt
+[3.504s] writing top-level names to carla_msgs.egg-info/top_level.txt
+[3.504s] writing manifest file 'carla_msgs.egg-info/SOURCES.txt'
+[3.506s] reading manifest file 'carla_msgs.egg-info/SOURCES.txt'
+[3.507s] writing manifest file 'carla_msgs.egg-info/SOURCES.txt'
+[3.558s] [  0%] Built target ament_cmake_python_build_carla_msgs_egg
+[5.785s] [  0%] Built target carla_msgs__cpp
+[5.798s] [  1%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.799s] [  2%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.799s] [  3%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.159s] [  5%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_lane_invasion_event__functions.c.o[0m
+[6.159s] [  5%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_actor_info__functions.c.o[0m
+[6.159s] [  5%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_collision_event__functions.c.o[0m
+[6.159s] [  5%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_ego_vehicle_info_wheel__functions.c.o[0m
+[6.159s] [  5%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_ego_vehicle_control__functions.c.o[0m
+[6.160s] [  5%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_actor_list__functions.c.o[0m
+[6.160s] [  6%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_ego_vehicle_info__functions.c.o[0m
+[6.161s] [  7%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_bounding_box__functions.c.o[0m
+[6.162s] [  8%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_ego_vehicle_status__functions.c.o[0m
+[6.164s] [  8%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_world_info__functions.c.o[0m
+[6.166s] [  9%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_control__functions.c.o[0m
+[6.169s] [  9%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_status__functions.c.o[0m
+[6.173s] [ 10%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_traffic_light_info__functions.c.o[0m
+[6.241s] [ 10%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_traffic_light_info_list__functions.c.o[0m
+[6.245s] [ 10%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_traffic_light_status_list__functions.c.o[0m
+[6.245s] [ 11%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_traffic_light_status__functions.c.o[0m
+[6.250s] [ 12%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_walker_control__functions.c.o[0m
+[6.252s] [ 12%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_weather_parameters__functions.c.o[0m
+[6.256s] [ 13%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/srv/detail/spawn_object__functions.c.o[0m
+[6.257s] [ 14%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/srv/detail/destroy_object__functions.c.o[0m
+[6.260s] [ 14%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/srv/detail/get_blueprints__functions.c.o[0m
+[6.344s] [ 15%] [32m[1mLinking C shared library libcarla_msgs__rosidl_generator_c.so[0m
+[6.393s] [ 15%] Built target carla_msgs__rosidl_generator_c
+[6.406s] [ 16%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.407s] [ 17%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.407s] [ 18%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.214s] [ 19%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_msgs/msg/carla_bounding_box__type_support.cpp.o[0m
+[7.214s] [ 19%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_msgs/msg/carla_ego_vehicle_info_wheel__type_support.cpp.o[0m
+[7.214s] [ 19%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_msgs/msg/carla_ego_vehicle_status__type_support.cpp.o[0m
+[7.216s] [ 19%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_msgs/msg/carla_ego_vehicle_info__type_support.cpp.o[0m
+[7.216s] [ 20%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_msgs/msg/carla_ego_vehicle_control__type_support.cpp.o[0m
+[7.217s] [ 20%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_msgs/msg/carla_actor_info__type_support.cpp.o[0m
+[7.217s] [ 20%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_msgs/msg/carla_lane_invasion_event__type_support.cpp.o[0m
+[7.217s] [ 22%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_msgs/msg/carla_collision_event__type_support.cpp.o[0m
+[7.217s] [ 22%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_msgs/msg/carla_world_info__type_support.cpp.o[0m
+[7.218s] [ 22%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_msgs/msg/carla_control__type_support.cpp.o[0m
+[7.221s] [ 23%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_msgs/msg/carla_actor_list__type_support.cpp.o[0m
+[7.623s] [ 24%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_msgs/msg/carla_status__type_support.cpp.o[0m
+[7.625s] [ 25%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_msgs/msg/carla_traffic_light_info__type_support.cpp.o[0m
+[7.627s] [ 25%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_msgs/msg/carla_traffic_light_info_list__type_support.cpp.o[0m
+[7.632s] [ 26%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_msgs/msg/carla_traffic_light_status__type_support.cpp.o[0m
+[7.648s] [ 26%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_msgs/msg/carla_traffic_light_status_list__type_support.cpp.o[0m
+[7.648s] [ 27%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_msgs/msg/carla_walker_control__type_support.cpp.o[0m
+[7.652s] [ 27%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_msgs/msg/carla_weather_parameters__type_support.cpp.o[0m
+[7.657s] [ 28%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_msgs/srv/spawn_object__type_support.cpp.o[0m
+[7.661s] [ 28%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_msgs/srv/destroy_object__type_support.cpp.o[0m
+[7.739s] [ 29%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_msgs/srv/get_blueprints__type_support.cpp.o[0m
+[8.081s] [ 30%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_msgs/msg/detail/carla_bounding_box__type_support.cpp.o[0m
+[8.090s] [ 30%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_msgs/msg/detail/carla_ego_vehicle_control__type_support.cpp.o[0m
+[8.095s] [ 30%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_msgs/msg/detail/carla_ego_vehicle_info_wheel__type_support.cpp.o[0m
+[8.097s] [ 32%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_msgs/msg/detail/carla_ego_vehicle_info__type_support.cpp.o[0m
+[8.097s] [ 32%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_msgs/msg/detail/carla_ego_vehicle_status__type_support.cpp.o[0m
+[8.109s] [ 32%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_msgs/msg/detail/carla_collision_event__type_support.cpp.o[0m
+[8.117s] [ 33%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_msgs/msg/detail/carla_lane_invasion_event__type_support.cpp.o[0m
+[8.120s] [ 33%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_msgs/msg/detail/carla_world_info__type_support.cpp.o[0m
+[8.122s] [ 34%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_msgs/msg/detail/carla_actor_info__type_support.cpp.o[0m
+[8.122s] [ 34%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_msgs/msg/detail/carla_actor_list__type_support.cpp.o[0m
+[8.132s] [ 35%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_msgs/msg/detail/carla_control__type_support.cpp.o[0m
+[8.142s] [ 35%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_msgs/msg/carla_bounding_box__type_support.cpp.o[0m
+[8.153s] [ 35%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_msgs/msg/detail/dds_fastrtps/carla_bounding_box__type_support.cpp.o[0m
+[8.162s] [ 35%] [32m[1mLinking CXX shared library libcarla_msgs__rosidl_typesupport_cpp.so[0m
+[8.225s] [ 36%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_msgs/msg/carla_ego_vehicle_control__type_support.cpp.o[0m
+[8.330s] [ 36%] Built target carla_msgs__rosidl_typesupport_cpp
+[8.334s] [ 36%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_msgs/msg/carla_ego_vehicle_status__type_support.cpp.o[0m
+[8.352s] [ 37%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_msgs/msg/carla_ego_vehicle_info_wheel__type_support.cpp.o[0m
+[8.462s] [ 37%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_msgs/msg/detail/carla_status__type_support.cpp.o[0m
+[8.482s] [ 37%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_msgs/msg/carla_ego_vehicle_info__type_support.cpp.o[0m
+[8.624s] [ 38%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_msgs/msg/carla_collision_event__type_support.cpp.o[0m
+[8.697s] [ 38%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_msgs/msg/carla_lane_invasion_event__type_support.cpp.o[0m
+[8.699s] [ 39%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_msgs/msg/carla_world_info__type_support.cpp.o[0m
+[8.702s] [ 40%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_msgs/msg/detail/carla_traffic_light_info__type_support.cpp.o[0m
+[8.703s] [ 40%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_msgs/msg/detail/carla_traffic_light_info_list__type_support.cpp.o[0m
+[8.727s] [ 41%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_msgs/msg/detail/carla_traffic_light_status__type_support.cpp.o[0m
+[8.731s] [ 41%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_msgs/msg/detail/carla_traffic_light_status_list__type_support.cpp.o[0m
+[8.741s] [ 42%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_msgs/msg/detail/carla_walker_control__type_support.cpp.o[0m
+[8.773s] [ 42%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_msgs/msg/carla_actor_info__type_support.cpp.o[0m
+[8.779s] [ 42%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_msgs/msg/detail/carla_weather_parameters__type_support.cpp.o[0m
+[8.795s] [ 43%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_msgs/msg/carla_actor_list__type_support.cpp.o[0m
+[8.801s] [ 43%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_msgs/srv/detail/destroy_object__type_support.cpp.o[0m
+[8.807s] [ 44%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_msgs/msg/carla_control__type_support.cpp.o[0m
+[8.807s] [ 44%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_msgs/srv/detail/spawn_object__type_support.cpp.o[0m
+[8.825s] [ 45%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_msgs/msg/carla_status__type_support.cpp.o[0m
+[8.840s] [ 45%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_msgs/msg/carla_traffic_light_info__type_support.cpp.o[0m
+[8.842s] [ 46%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_msgs/msg/detail/dds_fastrtps/carla_ego_vehicle_control__type_support.cpp.o[0m
+[8.857s] [ 46%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_msgs/msg/detail/dds_fastrtps/carla_ego_vehicle_status__type_support.cpp.o[0m
+[8.893s] [ 47%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_msgs/msg/detail/dds_fastrtps/carla_ego_vehicle_info_wheel__type_support.cpp.o[0m
+[8.930s] [ 48%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_msgs/msg/carla_traffic_light_info_list__type_support.cpp.o[0m
+[8.994s] [ 48%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_msgs/msg/carla_traffic_light_status__type_support.cpp.o[0m
+[9.014s] [ 49%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_msgs/msg/carla_traffic_light_status_list__type_support.cpp.o[0m
+[9.127s] [ 50%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_msgs/msg/carla_walker_control__type_support.cpp.o[0m
+[9.147s] [ 51%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_msgs/srv/detail/get_blueprints__type_support.cpp.o[0m
+[9.206s] [ 51%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_msgs/msg/carla_weather_parameters__type_support.cpp.o[0m
+[9.221s] [ 52%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_msgs/srv/spawn_object__type_support.cpp.o[0m
+[9.291s] [ 52%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_msgs/msg/detail/carla_bounding_box__type_support_c.cpp.o[0m
+[9.293s] [ 52%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_msgs/srv/destroy_object__type_support.cpp.o[0m
+[9.300s] [ 53%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_msgs/msg/detail/carla_ego_vehicle_control__type_support_c.cpp.o[0m
+[9.314s] [ 53%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_msgs/msg/detail/carla_bounding_box__type_support.c.o[0m
+[9.330s] [ 54%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_msgs/srv/get_blueprints__type_support.cpp.o[0m
+[9.334s] [ 54%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_msgs/msg/detail/carla_ego_vehicle_status__type_support_c.cpp.o[0m
+[9.362s] [ 55%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_msgs/msg/detail/carla_ego_vehicle_control__type_support.c.o[0m
+[9.369s] [ 55%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_msgs/msg/detail/dds_fastrtps/carla_ego_vehicle_info__type_support.cpp.o[0m
+[9.382s] [ 56%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_msgs/msg/detail/dds_fastrtps/carla_collision_event__type_support.cpp.o[0m
+[9.387s] [ 57%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_msgs/msg/detail/carla_ego_vehicle_info_wheel__type_support_c.cpp.o[0m
+[9.398s] [ 57%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_msgs/msg/detail/carla_ego_vehicle_status__type_support.c.o[0m
+[9.412s] [ 57%] [32m[1mLinking CXX shared library libcarla_msgs__rosidl_typesupport_c.so[0m
+[9.417s] [ 57%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_msgs/msg/detail/carla_ego_vehicle_info__type_support_c.cpp.o[0m
+[9.435s] [ 58%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_msgs/msg/detail/carla_collision_event__type_support_c.cpp.o[0m
+[9.443s] [ 59%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_msgs/msg/detail/carla_ego_vehicle_info_wheel__type_support.c.o[0m
+[9.515s] [ 59%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_msgs/msg/detail/carla_lane_invasion_event__type_support_c.cpp.o[0m
+[9.519s] [ 60%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_msgs/msg/detail/dds_fastrtps/carla_lane_invasion_event__type_support.cpp.o[0m
+[9.519s] [ 60%] Built target carla_msgs__rosidl_typesupport_c
+[9.531s] [ 61%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_msgs/msg/detail/dds_fastrtps/carla_world_info__type_support.cpp.o[0m
+[9.531s] [ 61%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_msgs/msg/detail/carla_world_info__type_support_c.cpp.o[0m
+[9.542s] [ 61%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_msgs/msg/detail/carla_actor_info__type_support_c.cpp.o[0m
+[9.545s] [ 62%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_msgs/msg/detail/carla_ego_vehicle_info__type_support.c.o[0m
+[9.592s] [ 63%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_msgs/msg/detail/dds_fastrtps/carla_actor_info__type_support.cpp.o[0m
+[9.623s] [ 63%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_msgs/msg/detail/carla_collision_event__type_support.c.o[0m
+[9.768s] [ 64%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_msgs/msg/detail/carla_lane_invasion_event__type_support.c.o[0m
+[9.802s] [ 65%] [32m[1mLinking CXX shared library libcarla_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[9.865s] [ 65%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_msgs/msg/detail/carla_world_info__type_support.c.o[0m
+[9.866s] [ 66%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_msgs/msg/detail/carla_actor_list__type_support_c.cpp.o[0m
+[9.884s] [ 67%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_msgs/msg/detail/carla_control__type_support_c.cpp.o[0m
+[9.904s] [ 68%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_msgs/msg/detail/carla_actor_info__type_support.c.o[0m
+[9.927s] [ 68%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_msgs/msg/detail/carla_actor_list__type_support.c.o[0m
+[9.994s] [ 68%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_msgs/msg/detail/carla_status__type_support_c.cpp.o[0m
+[10.002s] [ 69%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_msgs/msg/detail/carla_traffic_light_info__type_support_c.cpp.o[0m
+[10.006s] [ 70%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_msgs/msg/detail/carla_control__type_support.c.o[0m
+[10.024s] [ 70%] Built target carla_msgs__rosidl_typesupport_introspection_cpp
+[10.043s] [ 71%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_msgs/msg/detail/carla_traffic_light_status__type_support_c.cpp.o[0m
+[10.049s] [ 71%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_msgs/msg/detail/carla_traffic_light_info_list__type_support_c.cpp.o[0m
+[10.068s] [ 71%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_msgs/msg/detail/carla_status__type_support.c.o[0m
+[10.085s] [ 72%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_msgs/msg/detail/carla_traffic_light_info__type_support.c.o[0m
+[10.105s] [ 72%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_msgs/msg/detail/dds_fastrtps/carla_actor_list__type_support.cpp.o[0m
+[10.139s] [ 72%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_msgs/msg/detail/carla_traffic_light_info_list__type_support.c.o[0m
+[10.141s] [ 73%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_msgs/msg/detail/dds_fastrtps/carla_control__type_support.cpp.o[0m
+[10.146s] [ 73%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_msgs/msg/detail/carla_traffic_light_status_list__type_support_c.cpp.o[0m
+[10.161s] [ 74%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_msgs/msg/detail/carla_walker_control__type_support_c.cpp.o[0m
+[10.170s] [ 74%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_msgs/msg/detail/dds_fastrtps/carla_status__type_support.cpp.o[0m
+[10.174s] [ 74%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_msgs/msg/detail/carla_weather_parameters__type_support_c.cpp.o[0m
+[10.221s] [ 75%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_msgs/msg/detail/dds_fastrtps/carla_traffic_light_info__type_support.cpp.o[0m
+[10.232s] [ 76%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_msgs/msg/detail/carla_traffic_light_status__type_support.c.o[0m
+[10.246s] [ 76%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_msgs/msg/detail/carla_traffic_light_status_list__type_support.c.o[0m
+[10.259s] [ 76%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_msgs/msg/detail/dds_fastrtps/carla_traffic_light_info_list__type_support.cpp.o[0m
+[10.350s] [ 77%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_msgs/srv/detail/spawn_object__type_support_c.cpp.o[0m
+[10.382s] [ 78%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_msgs/msg/detail/carla_walker_control__type_support.c.o[0m
+[10.451s] [ 78%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_msgs/msg/detail/carla_weather_parameters__type_support.c.o[0m
+[10.465s] [ 78%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_msgs/srv/detail/destroy_object__type_support_c.cpp.o[0m
+[10.483s] [ 79%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_msgs/srv/detail/spawn_object__type_support.c.o[0m
+[10.531s] [ 79%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_msgs/srv/detail/destroy_object__type_support.c.o[0m
+[10.562s] [ 80%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_msgs/srv/detail/get_blueprints__type_support_c.cpp.o[0m
+[10.583s] [ 81%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_msgs/srv/detail/get_blueprints__type_support.c.o[0m
+[10.586s] [ 82%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_msgs/msg/detail/dds_fastrtps/carla_traffic_light_status__type_support.cpp.o[0m
+[10.593s] [ 82%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_msgs/msg/detail/dds_fastrtps/carla_traffic_light_status_list__type_support.cpp.o[0m
+[10.598s] [ 83%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_msgs/msg/detail/dds_fastrtps/carla_walker_control__type_support.cpp.o[0m
+[10.610s] [ 83%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_msgs/msg/detail/dds_fastrtps/carla_weather_parameters__type_support.cpp.o[0m
+[10.677s] [ 83%] [32m[1mLinking C shared library libcarla_msgs__rosidl_typesupport_introspection_c.so[0m
+[10.691s] [ 83%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_msgs/srv/detail/dds_fastrtps/destroy_object__type_support.cpp.o[0m
+[10.693s] [ 84%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_msgs/srv/detail/dds_fastrtps/spawn_object__type_support.cpp.o[0m
+[10.717s] [ 85%] [32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_msgs/srv/detail/dds_fastrtps/get_blueprints__type_support.cpp.o[0m
+[10.756s] [ 85%] Built target carla_msgs__rosidl_typesupport_introspection_c
+[11.104s] [ 85%] [32m[1mLinking CXX shared library libcarla_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[11.214s] [ 85%] Built target carla_msgs__rosidl_typesupport_fastrtps_c
+[11.269s] [ 85%] [32m[1mLinking CXX shared library libcarla_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.376s] [ 85%] Built target carla_msgs__rosidl_typesupport_fastrtps_cpp
+[11.407s] [ 85%] Built target carla_msgs
+[11.432s] [ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[14.356s] [ 86%] Built target carla_msgs__py
+[14.387s] [ 87%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_msgs/msg/_carla_bounding_box_s.c.o[0m
+[14.387s] [ 87%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_msgs/msg/_carla_collision_event_s.c.o[0m
+[14.388s] [ 87%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_msgs/msg/_carla_actor_info_s.c.o[0m
+[14.388s] [ 88%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_msgs/msg/_carla_traffic_light_info_s.c.o[0m
+[14.388s] [ 88%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_msgs/msg/_carla_ego_vehicle_control_s.c.o[0m
+[14.388s] [ 89%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_msgs/msg/_carla_status_s.c.o[0m
+[14.388s] [ 90%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_msgs/msg/_carla_ego_vehicle_info_wheel_s.c.o[0m
+[14.389s] [ 90%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_msgs/msg/_carla_control_s.c.o[0m
+[14.389s] [ 90%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_msgs/msg/_carla_lane_invasion_event_s.c.o[0m
+[14.390s] [ 90%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_msgs/msg/_carla_ego_vehicle_status_s.c.o[0m
+[14.391s] [ 90%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_msgs/msg/_carla_traffic_light_status_s.c.o[0m
+[14.391s] [ 91%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_msgs/msg/_carla_traffic_light_info_list_s.c.o[0m
+[14.391s] [ 92%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_msgs/msg/_carla_traffic_light_status_list_s.c.o[0m
+[14.394s] [ 93%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_msgs/msg/_carla_actor_list_s.c.o[0m
+[14.394s] [ 93%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_msgs/msg/_carla_ego_vehicle_info_s.c.o[0m
+[14.394s] [ 94%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_msgs/msg/_carla_world_info_s.c.o[0m
+[14.549s] [ 95%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_msgs/msg/_carla_walker_control_s.c.o[0m
+[14.549s] [ 95%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_msgs/msg/_carla_weather_parameters_s.c.o[0m
+[14.549s] [ 96%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_msgs/srv/_spawn_object_s.c.o[0m
+[14.552s] [ 97%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_msgs/srv/_destroy_object_s.c.o[0m
+[14.552s] [ 97%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_msgs/srv/_get_blueprints_s.c.o[0m
+[14.682s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/carla_msgs/libcarla_msgs__rosidl_generator_py.so[0m
+[14.733s] [ 97%] Built target carla_msgs__rosidl_generator_py
+[14.756s] [ 98%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/carla_msgs/_carla_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[14.756s] [100%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/carla_msgs/_carla_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[14.756s] [100%] [32mBuilding C object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/carla_msgs/_carla_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[14.929s] [100%] [32m[1mLinking C shared library rosidl_generator_py/carla_msgs/carla_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[14.938s] [100%] [32m[1mLinking C shared library rosidl_generator_py/carla_msgs/carla_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[14.957s] [100%] [32m[1mLinking C shared library rosidl_generator_py/carla_msgs/carla_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[14.987s] [100%] Built target carla_msgs__rosidl_typesupport_fastrtps_c__pyext
+[14.998s] [100%] Built target carla_msgs__rosidl_typesupport_c__pyext
+[15.016s] [100%] Built target carla_msgs__rosidl_typesupport_introspection_c__pyext
+[15.041s] Invoked command in '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_msgs -- -j16 -l16
+[15.581s] Invoking command in '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_msgs
+[15.589s] -- Install configuration: ""
+[15.590s] -- Execute custom install script
+[15.590s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/ament_index/resource_index/rosidl_interfaces/carla_msgs
+[15.602s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_actor_info.h
+[15.618s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_actor_list.h
+[15.634s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_bounding_box.h
+[15.643s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_collision_event.h
+[15.659s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_control.h
+[15.670s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_ego_vehicle_control.h
+[15.681s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_ego_vehicle_info.h
+[15.692s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_ego_vehicle_info_wheel.h
+[15.707s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_ego_vehicle_status.h
+[15.724s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_lane_invasion_event.h
+[15.735s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_status.h
+[15.745s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_traffic_light_info.h
+[15.756s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_traffic_light_info_list.h
+[15.766s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_traffic_light_status.h
+[15.783s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_traffic_light_status_list.h
+[15.799s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_walker_control.h
+[15.810s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_weather_parameters.h
+[15.819s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_world_info.h
+[15.829s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_actor_info__functions.h
+[15.845s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_actor_info__struct.h
+[15.862s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_actor_info__type_support.h
+[15.872s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_actor_list__functions.h
+[15.883s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_actor_list__struct.h
+[15.900s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_actor_list__type_support.h
+[15.917s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_bounding_box__functions.h
+[15.933s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_bounding_box__struct.h
+[15.943s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_bounding_box__type_support.h
+[15.953s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_collision_event__functions.h
+[15.969s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_collision_event__struct.h
+[15.978s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_collision_event__type_support.h
+[15.988s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_control__functions.h
+[16.001s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_control__struct.h
+[16.017s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_control__type_support.h
+[16.027s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_control__functions.h
+[16.037s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_control__struct.h
+[16.049s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_control__type_support.h
+[16.058s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_info__functions.h
+[16.074s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_info__struct.h
+[16.091s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_info__type_support.h
+[16.108s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_info_wheel__functions.h
+[16.125s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_info_wheel__struct.h
+[16.141s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_info_wheel__type_support.h
+[16.157s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_status__functions.h
+[16.173s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_status__struct.h
+[16.190s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_status__type_support.h
+[16.201s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_lane_invasion_event__functions.h
+[16.217s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_lane_invasion_event__struct.h
+[16.233s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_lane_invasion_event__type_support.h
+[16.250s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_status__functions.h
+[16.268s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_status__struct.h
+[16.284s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_status__type_support.h
+[16.301s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_info__functions.h
+[16.317s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_info__struct.h
+[16.334s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_info__type_support.h
+[16.351s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_info_list__functions.h
+[16.368s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_info_list__struct.h
+[16.384s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_info_list__type_support.h
+[16.402s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_status__functions.h
+[16.419s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_status__struct.h
+[16.435s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_status__type_support.h
+[16.452s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_status_list__functions.h
+[16.469s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_status_list__struct.h
+[16.485s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_status_list__type_support.h
+[16.502s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_walker_control__functions.h
+[16.519s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_walker_control__struct.h
+[16.536s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_walker_control__type_support.h
+[16.554s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_weather_parameters__functions.h
+[16.567s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_weather_parameters__struct.h
+[16.576s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_weather_parameters__type_support.h
+[16.586s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_world_info__functions.h
+[16.604s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_world_info__struct.h
+[16.620s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_world_info__type_support.h
+[16.637s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/rosidl_generator_c__visibility_control.h
+[16.654s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/destroy_object.h
+[16.671s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/destroy_object__functions.h
+[16.687s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/destroy_object__struct.h
+[16.704s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/destroy_object__type_support.h
+[16.721s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/get_blueprints__functions.h
+[16.734s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/get_blueprints__struct.h
+[16.751s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/get_blueprints__type_support.h
+[16.769s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/spawn_object__functions.h
+[16.786s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/spawn_object__struct.h
+[16.804s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/spawn_object__type_support.h
+[16.822s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/get_blueprints.h
+[16.839s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/spawn_object.h
+[16.857s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/environment/library_path.sh
+[16.875s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/environment/library_path.dsv
+[16.895s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_actor_info__rosidl_typesupport_fastrtps_c.h
+[16.912s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_actor_list__rosidl_typesupport_fastrtps_c.h
+[16.930s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_bounding_box__rosidl_typesupport_fastrtps_c.h
+[16.947s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_collision_event__rosidl_typesupport_fastrtps_c.h
+[16.963s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_control__rosidl_typesupport_fastrtps_c.h
+[16.979s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_control__rosidl_typesupport_fastrtps_c.h
+[16.995s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_info__rosidl_typesupport_fastrtps_c.h
+[17.012s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_info_wheel__rosidl_typesupport_fastrtps_c.h
+[17.028s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_status__rosidl_typesupport_fastrtps_c.h
+[17.044s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_lane_invasion_event__rosidl_typesupport_fastrtps_c.h
+[17.060s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_status__rosidl_typesupport_fastrtps_c.h
+[17.077s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_info__rosidl_typesupport_fastrtps_c.h
+[17.095s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_info_list__rosidl_typesupport_fastrtps_c.h
+[17.111s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_status__rosidl_typesupport_fastrtps_c.h
+[17.128s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_status_list__rosidl_typesupport_fastrtps_c.h
+[17.144s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_walker_control__rosidl_typesupport_fastrtps_c.h
+[17.161s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_weather_parameters__rosidl_typesupport_fastrtps_c.h
+[17.178s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_world_info__rosidl_typesupport_fastrtps_c.h
+[17.195s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[17.212s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/destroy_object__rosidl_typesupport_fastrtps_c.h
+[17.228s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/get_blueprints__rosidl_typesupport_fastrtps_c.h
+[17.245s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/spawn_object__rosidl_typesupport_fastrtps_c.h
+[17.263s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_actor_info.hpp
+[17.279s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_actor_list.hpp
+[17.295s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_bounding_box.hpp
+[17.312s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_collision_event.hpp
+[17.328s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_control.hpp
+[17.338s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_ego_vehicle_control.hpp
+[17.354s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_ego_vehicle_info.hpp
+[17.370s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_ego_vehicle_info_wheel.hpp
+[17.387s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_ego_vehicle_status.hpp
+[17.404s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_lane_invasion_event.hpp
+[17.420s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_status.hpp
+[17.437s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_traffic_light_info.hpp
+[17.449s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_traffic_light_info_list.hpp
+[17.466s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_traffic_light_status.hpp
+[17.476s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_traffic_light_status_list.hpp
+[17.488s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_walker_control.hpp
+[17.497s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_weather_parameters.hpp
+[17.513s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_world_info.hpp
+[17.523s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_actor_info__builder.hpp
+[17.533s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_actor_info__struct.hpp
+[17.543s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_actor_info__traits.hpp
+[17.560s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_actor_list__builder.hpp
+[17.577s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_actor_list__struct.hpp
+[17.594s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_actor_list__traits.hpp
+[17.610s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_bounding_box__builder.hpp
+[17.627s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_bounding_box__struct.hpp
+[17.645s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_bounding_box__traits.hpp
+[17.661s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_collision_event__builder.hpp
+[17.674s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_collision_event__struct.hpp
+[17.685s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_collision_event__traits.hpp
+[17.703s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_control__builder.hpp
+[17.713s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_control__struct.hpp
+[17.724s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_control__traits.hpp
+[17.737s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_control__builder.hpp
+[17.754s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_control__struct.hpp
+[17.770s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_control__traits.hpp
+[17.787s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_info__builder.hpp
+[17.804s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_info__struct.hpp
+[17.820s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_info__traits.hpp
+[17.837s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_info_wheel__builder.hpp
+[17.853s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_info_wheel__struct.hpp
+[17.870s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_info_wheel__traits.hpp
+[17.887s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_status__builder.hpp
+[17.898s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_status__struct.hpp
+[17.914s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_status__traits.hpp
+[17.930s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_lane_invasion_event__builder.hpp
+[17.939s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_lane_invasion_event__struct.hpp
+[17.956s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_lane_invasion_event__traits.hpp
+[17.972s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_status__builder.hpp
+[17.982s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_status__struct.hpp
+[17.992s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_status__traits.hpp
+[18.008s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_info__builder.hpp
+[18.025s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_info__struct.hpp
+[18.042s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_info__traits.hpp
+[18.058s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_info_list__builder.hpp
+[18.072s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_info_list__struct.hpp
+[18.085s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_info_list__traits.hpp
+[18.102s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_status__builder.hpp
+[18.111s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_status__struct.hpp
+[18.121s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_status__traits.hpp
+[18.131s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_status_list__builder.hpp
+[18.147s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_status_list__struct.hpp
+[18.163s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_status_list__traits.hpp
+[18.180s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_walker_control__builder.hpp
+[18.196s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_walker_control__struct.hpp
+[18.212s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_walker_control__traits.hpp
+[18.228s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_weather_parameters__builder.hpp
+[18.244s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_weather_parameters__struct.hpp
+[18.256s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_weather_parameters__traits.hpp
+[18.272s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_world_info__builder.hpp
+[18.283s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_world_info__struct.hpp
+[18.299s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_world_info__traits.hpp
+[18.309s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/destroy_object.hpp
+[18.319s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/destroy_object__builder.hpp
+[18.328s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/destroy_object__struct.hpp
+[18.338s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/destroy_object__traits.hpp
+[18.350s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/get_blueprints__builder.hpp
+[18.360s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/get_blueprints__struct.hpp
+[18.371s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/get_blueprints__traits.hpp
+[18.380s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/spawn_object__builder.hpp
+[18.398s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/spawn_object__struct.hpp
+[18.408s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/spawn_object__traits.hpp
+[18.418s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/get_blueprints.hpp
+[18.428s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/spawn_object.hpp
+[18.440s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_actor_info__rosidl_typesupport_fastrtps_cpp.hpp
+[18.456s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_actor_list__rosidl_typesupport_fastrtps_cpp.hpp
+[18.473s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_bounding_box__rosidl_typesupport_fastrtps_cpp.hpp
+[18.489s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_collision_event__rosidl_typesupport_fastrtps_cpp.hpp
+[18.505s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_control__rosidl_typesupport_fastrtps_cpp.hpp
+[18.521s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_control__rosidl_typesupport_fastrtps_cpp.hpp
+[18.538s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_info__rosidl_typesupport_fastrtps_cpp.hpp
+[18.552s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_info_wheel__rosidl_typesupport_fastrtps_cpp.hpp
+[18.562s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_status__rosidl_typesupport_fastrtps_cpp.hpp
+[18.573s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_lane_invasion_event__rosidl_typesupport_fastrtps_cpp.hpp
+[18.585s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_status__rosidl_typesupport_fastrtps_cpp.hpp
+[18.602s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_info__rosidl_typesupport_fastrtps_cpp.hpp
+[18.618s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_info_list__rosidl_typesupport_fastrtps_cpp.hpp
+[18.627s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_status__rosidl_typesupport_fastrtps_cpp.hpp
+[18.637s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_status_list__rosidl_typesupport_fastrtps_cpp.hpp
+[18.654s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_walker_control__rosidl_typesupport_fastrtps_cpp.hpp
+[18.671s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_weather_parameters__rosidl_typesupport_fastrtps_cpp.hpp
+[18.688s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_world_info__rosidl_typesupport_fastrtps_cpp.hpp
+[18.704s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[18.720s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/destroy_object__rosidl_typesupport_fastrtps_cpp.hpp
+[18.737s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/get_blueprints__rosidl_typesupport_fastrtps_cpp.hpp
+[18.753s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/spawn_object__rosidl_typesupport_fastrtps_cpp.hpp
+[18.770s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_actor_info__rosidl_typesupport_introspection_c.h
+[18.780s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_actor_list__rosidl_typesupport_introspection_c.h
+[18.792s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_bounding_box__rosidl_typesupport_introspection_c.h
+[18.802s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_collision_event__rosidl_typesupport_introspection_c.h
+[18.817s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_control__rosidl_typesupport_introspection_c.h
+[18.827s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_control__rosidl_typesupport_introspection_c.h
+[18.837s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_info__rosidl_typesupport_introspection_c.h
+[18.848s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_info_wheel__rosidl_typesupport_introspection_c.h
+[18.858s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_status__rosidl_typesupport_introspection_c.h
+[18.869s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_lane_invasion_event__rosidl_typesupport_introspection_c.h
+[18.886s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_status__rosidl_typesupport_introspection_c.h
+[18.902s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_info__rosidl_typesupport_introspection_c.h
+[18.918s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_info_list__rosidl_typesupport_introspection_c.h
+[18.934s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_status__rosidl_typesupport_introspection_c.h
+[18.944s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_status_list__rosidl_typesupport_introspection_c.h
+[18.955s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_walker_control__rosidl_typesupport_introspection_c.h
+[18.971s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_weather_parameters__rosidl_typesupport_introspection_c.h
+[18.989s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_world_info__rosidl_typesupport_introspection_c.h
+[18.998s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[19.008s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/destroy_object__rosidl_typesupport_introspection_c.h
+[19.018s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/get_blueprints__rosidl_typesupport_introspection_c.h
+[19.034s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/spawn_object__rosidl_typesupport_introspection_c.h
+[19.045s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_actor_info__rosidl_typesupport_introspection_cpp.hpp
+[19.062s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_actor_list__rosidl_typesupport_introspection_cpp.hpp
+[19.078s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_bounding_box__rosidl_typesupport_introspection_cpp.hpp
+[19.091s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_collision_event__rosidl_typesupport_introspection_cpp.hpp
+[19.100s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_control__rosidl_typesupport_introspection_cpp.hpp
+[19.110s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_control__rosidl_typesupport_introspection_cpp.hpp
+[19.126s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_info__rosidl_typesupport_introspection_cpp.hpp
+[19.136s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_info_wheel__rosidl_typesupport_introspection_cpp.hpp
+[19.152s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_status__rosidl_typesupport_introspection_cpp.hpp
+[19.169s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_lane_invasion_event__rosidl_typesupport_introspection_cpp.hpp
+[19.186s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_status__rosidl_typesupport_introspection_cpp.hpp
+[19.203s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_info__rosidl_typesupport_introspection_cpp.hpp
+[19.218s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_info_list__rosidl_typesupport_introspection_cpp.hpp
+[19.234s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_status__rosidl_typesupport_introspection_cpp.hpp
+[19.251s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_status_list__rosidl_typesupport_introspection_cpp.hpp
+[19.267s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_walker_control__rosidl_typesupport_introspection_cpp.hpp
+[19.277s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_weather_parameters__rosidl_typesupport_introspection_cpp.hpp
+[19.293s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_world_info__rosidl_typesupport_introspection_cpp.hpp
+[19.304s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/destroy_object__rosidl_typesupport_introspection_cpp.hpp
+[19.313s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/get_blueprints__rosidl_typesupport_introspection_cpp.hpp
+[19.323s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/spawn_object__rosidl_typesupport_introspection_cpp.hpp
+[19.333s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/environment/pythonpath.sh
+[19.342s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/environment/pythonpath.dsv
+[19.360s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs-1.3.0-py3.10.egg-info/PKG-INFO
+[19.377s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs-1.3.0-py3.10.egg-info/SOURCES.txt
+[19.394s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs-1.3.0-py3.10.egg-info/dependency_links.txt
+[19.411s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs-1.3.0-py3.10.egg-info/top_level.txt
+[19.430s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/__init__.py
+[19.446s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/_carla_msgs_s.ep.rosidl_typesupport_c.c
+[19.463s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/_carla_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[19.480s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/_carla_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[19.497s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/carla_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[19.513s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/carla_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[19.530s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/carla_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[19.546s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/libcarla_msgs__rosidl_generator_py.so
+[19.562s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/__init__.py
+[19.579s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_actor_info.py
+[19.592s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_actor_info_s.c
+[19.602s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_actor_list.py
+[19.611s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_actor_list_s.c
+[19.621s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_bounding_box.py
+[19.631s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_bounding_box_s.c
+[19.641s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_collision_event.py
+[19.684s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_collision_event_s.c
+[19.694s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_control.py
+[19.704s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_control_s.c
+[19.714s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_ego_vehicle_control.py
+[19.730s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_ego_vehicle_control_s.c
+[19.739s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_ego_vehicle_info.py
+[19.756s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_ego_vehicle_info_s.c
+[19.772s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_ego_vehicle_info_wheel.py
+[19.789s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_ego_vehicle_info_wheel_s.c
+[19.805s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_ego_vehicle_status.py
+[19.821s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_ego_vehicle_status_s.c
+[19.837s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_lane_invasion_event.py
+[19.854s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_lane_invasion_event_s.c
+[19.864s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_status.py
+[19.881s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_status_s.c
+[19.893s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_traffic_light_info.py
+[19.903s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_traffic_light_info_list.py
+[19.913s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_traffic_light_info_list_s.c
+[19.922s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_traffic_light_info_s.c
+[19.932s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_traffic_light_status.py
+[19.949s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_traffic_light_status_list.py
+[19.965s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_traffic_light_status_list_s.c
+[19.981s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_traffic_light_status_s.c
+[19.998s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_walker_control.py
+[20.014s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_walker_control_s.c
+[20.030s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_weather_parameters.py
+[20.046s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_weather_parameters_s.c
+[20.063s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_world_info.py
+[20.079s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_world_info_s.c
+[20.097s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/srv/__init__.py
+[20.114s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/srv/_destroy_object.py
+[20.130s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/srv/_destroy_object_s.c
+[20.146s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/srv/_get_blueprints.py
+[20.163s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/srv/_get_blueprints_s.c
+[20.175s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/srv/_spawn_object.py
+[20.185s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/srv/_spawn_object_s.c
+[20.201s] -- Up-to-date symlink: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/carla_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[20.202s] -- Up-to-date symlink: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/carla_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[20.202s] -- Up-to-date symlink: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/carla_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[20.203s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/msg/CarlaBoundingBox.idl
+[20.219s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/msg/CarlaEgoVehicleControl.idl
+[20.235s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/msg/CarlaEgoVehicleStatus.idl
+[20.252s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/msg/CarlaEgoVehicleInfoWheel.idl
+[20.268s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/msg/CarlaEgoVehicleInfo.idl
+[20.285s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/msg/CarlaCollisionEvent.idl
+[20.295s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/msg/CarlaLaneInvasionEvent.idl
+[20.305s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/msg/CarlaWorldInfo.idl
+[20.315s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/msg/CarlaActorInfo.idl
+[20.324s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/msg/CarlaActorList.idl
+[20.334s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/msg/CarlaControl.idl
+[20.351s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/msg/CarlaStatus.idl
+[20.361s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/msg/CarlaTrafficLightInfo.idl
+[20.372s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/msg/CarlaTrafficLightInfoList.idl
+[20.382s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/msg/CarlaTrafficLightStatus.idl
+[20.399s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/msg/CarlaTrafficLightStatusList.idl
+[20.415s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/msg/CarlaWalkerControl.idl
+[20.425s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/msg/CarlaWeatherParameters.idl
+[20.435s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/srv/SpawnObject.idl
+[20.451s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/srv/DestroyObject.idl
+[20.468s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/srv/GetBlueprints.idl
+[20.478s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/msg/CarlaBoundingBox.msg
+[20.495s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/msg/CarlaEgoVehicleControl.msg
+[20.511s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/msg/CarlaEgoVehicleStatus.msg
+[20.527s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/msg/CarlaEgoVehicleInfoWheel.msg
+[20.544s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/msg/CarlaEgoVehicleInfo.msg
+[20.561s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/msg/CarlaCollisionEvent.msg
+[20.578s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/msg/CarlaLaneInvasionEvent.msg
+[20.595s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/msg/CarlaWorldInfo.msg
+[20.611s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/msg/CarlaActorInfo.msg
+[20.627s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/msg/CarlaActorList.msg
+[20.644s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/msg/CarlaControl.msg
+[20.661s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/msg/CarlaStatus.msg
+[20.671s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/msg/CarlaTrafficLightInfo.msg
+[20.681s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/msg/CarlaTrafficLightInfoList.msg
+[20.693s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/msg/CarlaTrafficLightStatus.msg
+[20.703s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/msg/CarlaTrafficLightStatusList.msg
+[20.712s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/msg/CarlaWalkerControl.msg
+[20.722s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/msg/CarlaWeatherParameters.msg
+[20.732s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/srv/SpawnObject.srv
+[20.748s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/srv/SpawnObject_Request.msg
+[20.765s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/srv/SpawnObject_Response.msg
+[20.782s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/srv/DestroyObject.srv
+[20.799s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/srv/DestroyObject_Request.msg
+[20.816s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/srv/DestroyObject_Response.msg
+[20.834s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/srv/GetBlueprints.srv
+[20.851s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/srv/GetBlueprints_Request.msg
+[20.861s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/srv/GetBlueprints_Response.msg
+[20.873s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/ament_index/resource_index/package_run_dependencies/carla_msgs
+[20.883s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/ament_index/resource_index/parent_prefix_path/carla_msgs
+[20.893s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/environment/ament_prefix_path.sh
+[20.905s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/environment/ament_prefix_path.dsv
+[20.915s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/environment/path.sh
+[20.931s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/environment/path.dsv
+[20.941s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/local_setup.bash
+[20.951s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/local_setup.sh
+[20.961s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/local_setup.zsh
+[20.973s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/local_setup.dsv
+[20.983s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/package.dsv
+[20.994s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/ament_index/resource_index/packages/carla_msgs
+[21.005s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/cmake/rosidl_cmake-extras.cmake
+[21.015s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[21.026s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[21.038s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[21.048s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[21.060s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[21.071s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[21.081s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/cmake/carla_msgsConfig.cmake
+[21.093s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/cmake/carla_msgsConfig-version.cmake
+[21.104s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/package.xml
+[21.114s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/lib/libcarla_msgs__rosidl_generator_c.so
+[21.115s] -- Set runtime path of "/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/lib/libcarla_msgs__rosidl_generator_c.so" to ""
+[21.116s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/lib/libcarla_msgs__rosidl_typesupport_fastrtps_c.so
+[21.117s] -- Set runtime path of "/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/lib/libcarla_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[21.117s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/lib/libcarla_msgs__rosidl_typesupport_fastrtps_cpp.so
+[21.118s] -- Set runtime path of "/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/lib/libcarla_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[21.119s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/lib/libcarla_msgs__rosidl_typesupport_introspection_c.so
+[21.119s] -- Set runtime path of "/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/lib/libcarla_msgs__rosidl_typesupport_introspection_c.so" to ""
+[21.120s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/lib/libcarla_msgs__rosidl_typesupport_c.so
+[21.120s] -- Set runtime path of "/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/lib/libcarla_msgs__rosidl_typesupport_c.so" to ""
+[21.120s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/lib/libcarla_msgs__rosidl_typesupport_introspection_cpp.so
+[21.122s] -- Set runtime path of "/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/lib/libcarla_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[21.122s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/lib/libcarla_msgs__rosidl_typesupport_cpp.so
+[21.123s] -- Set runtime path of "/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/lib/libcarla_msgs__rosidl_typesupport_cpp.so" to ""
+[21.188s] Listing '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs'...
+[21.188s] Compiling '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/__init__.py'...
+[21.188s] Listing '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg'...
+[21.188s] Compiling '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/__init__.py'...
+[21.188s] Compiling '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_actor_info.py'...
+[21.189s] Compiling '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_actor_list.py'...
+[21.189s] Compiling '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_bounding_box.py'...
+[21.189s] Compiling '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_collision_event.py'...
+[21.189s] Compiling '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_control.py'...
+[21.189s] Compiling '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_ego_vehicle_control.py'...
+[21.189s] Compiling '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_ego_vehicle_info.py'...
+[21.189s] Compiling '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_ego_vehicle_info_wheel.py'...
+[21.189s] Compiling '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_ego_vehicle_status.py'...
+[21.189s] Compiling '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_lane_invasion_event.py'...
+[21.190s] Compiling '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_status.py'...
+[21.190s] Compiling '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_traffic_light_info.py'...
+[21.190s] Compiling '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_traffic_light_info_list.py'...
+[21.190s] Compiling '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_traffic_light_status.py'...
+[21.190s] Compiling '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_traffic_light_status_list.py'...
+[21.190s] Compiling '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_walker_control.py'...
+[21.190s] Compiling '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_weather_parameters.py'...
+[21.190s] Compiling '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/msg/_carla_world_info.py'...
+[21.190s] Listing '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/srv'...
+[21.191s] Compiling '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/srv/__init__.py'...
+[21.191s] Compiling '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/srv/_destroy_object.py'...
+[21.191s] Compiling '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/srv/_get_blueprints.py'...
+[21.191s] Compiling '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages/carla_msgs/srv/_spawn_object.py'...
+[21.192s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/lib/libcarla_msgs__rosidl_generator_py.so
+[21.193s] -- Set runtime path of "/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/lib/libcarla_msgs__rosidl_generator_py.so" to ""
+[21.193s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/cmake/export_carla_msgs__rosidl_generator_cExport.cmake
+[21.193s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/cmake/export_carla_msgs__rosidl_generator_cExport-noconfig.cmake
+[21.194s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/cmake/export_carla_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[21.194s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/cmake/export_carla_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[21.195s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/cmake/export_carla_msgs__rosidl_generator_cppExport.cmake
+[21.195s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/cmake/export_carla_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[21.195s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/cmake/export_carla_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[21.196s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/cmake/carla_msgs__rosidl_typesupport_introspection_cExport.cmake
+[21.196s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/cmake/carla_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[21.196s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/cmake/carla_msgs__rosidl_typesupport_cExport.cmake
+[21.197s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/cmake/carla_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[21.197s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/cmake/carla_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[21.197s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/cmake/carla_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[21.198s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/cmake/carla_msgs__rosidl_typesupport_cppExport.cmake
+[21.198s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/cmake/carla_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[21.198s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/cmake/export_carla_msgs__rosidl_generator_pyExport.cmake
+[21.199s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/cmake/export_carla_msgs__rosidl_generator_pyExport-noconfig.cmake
+[21.204s] Invoked command in '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_msgs

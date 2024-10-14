@@ -1,0 +1,266 @@
+[0.571s] Invoking command in '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_waypoint_types': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/src/carla_ros/carla_waypoint_types -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types
+[0.838s] -- The C compiler identification is GNU 11.4.0
+[0.838s] -- The CXX compiler identification is GNU 11.4.0
+[0.838s] -- Detecting C compiler ABI info
+[0.839s] -- Detecting C compiler ABI info - done
+[0.839s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.839s] -- Detecting C compile features
+[0.839s] -- Detecting C compile features - done
+[0.840s] -- Detecting CXX compiler ABI info
+[0.935s] -- Detecting CXX compiler ABI info - done
+[0.949s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.950s] -- Detecting CXX compile features
+[0.950s] -- Detecting CXX compile features - done
+[0.955s] -- Found ros_environment: 3.2.2 (/opt/ros/humble/share/ros_environment/cmake)
+[0.959s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.138s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.204s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.257s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.317s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.326s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.338s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.358s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.385s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.637s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.973s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[1.979s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[1.986s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[1.993s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.543s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.782s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.817s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.823s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.870s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.870s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.870s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.870s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.892s] -- Found PythonExtra: .so  
+[3.018s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[3.021s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[3.027s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.049s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.050s] -- Added test 'lint_cmake' to check CMake code style
+[3.051s] -- Added test 'xmllint' to check XML markup files
+[3.055s] -- Configuring done
+[3.104s] -- Generating done
+[3.107s] -- Build files have been written to: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_waypoint_types
+[3.119s] Invoked command in '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_waypoint_types' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/src/carla_ros/carla_waypoint_types -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types
+[3.121s] Invoking command in '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_waypoint_types': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_waypoint_types -- -j16 -l16
+[3.168s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.184s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.199s] [  4%] Built target ament_cmake_python_symlink_carla_waypoint_types
+[3.495s] running egg_info
+[3.496s] creating carla_waypoint_types.egg-info
+[3.496s] writing carla_waypoint_types.egg-info/PKG-INFO
+[3.496s] writing dependency_links to carla_waypoint_types.egg-info/dependency_links.txt
+[3.496s] writing top-level names to carla_waypoint_types.egg-info/top_level.txt
+[3.497s] writing manifest file 'carla_waypoint_types.egg-info/SOURCES.txt'
+[3.499s] reading manifest file 'carla_waypoint_types.egg-info/SOURCES.txt'
+[3.500s] writing manifest file 'carla_waypoint_types.egg-info/SOURCES.txt'
+[3.549s] [  4%] Built target ament_cmake_python_build_carla_waypoint_types_egg
+[3.719s] [  6%] [32mBuilding C object CMakeFiles/carla_waypoint_types__rosidl_generator_c.dir/rosidl_generator_c/carla_waypoint_types/srv/detail/get_actor_waypoint__functions.c.o[0m
+[3.721s] [  8%] [32mBuilding C object CMakeFiles/carla_waypoint_types__rosidl_generator_c.dir/rosidl_generator_c/carla_waypoint_types/msg/detail/carla_waypoint__functions.c.o[0m
+[3.722s] [ 10%] [32mBuilding C object CMakeFiles/carla_waypoint_types__rosidl_generator_c.dir/rosidl_generator_c/carla_waypoint_types/srv/detail/get_waypoint__functions.c.o[0m
+[3.795s] [ 10%] Built target carla_waypoint_types__cpp
+[3.808s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.808s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.812s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.823s] [ 19%] [32m[1mLinking C shared library libcarla_waypoint_types__rosidl_generator_c.so[0m
+[3.873s] [ 19%] Built target carla_waypoint_types__rosidl_generator_c
+[3.889s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.889s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.891s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.520s] [ 27%] [32mBuilding CXX object CMakeFiles/carla_waypoint_types__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_waypoint_types/srv/get_actor_waypoint__type_support.cpp.o[0m
+[4.521s] [ 29%] [32mBuilding CXX object CMakeFiles/carla_waypoint_types__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_waypoint_types/msg/carla_waypoint__type_support.cpp.o[0m
+[4.525s] [ 31%] [32mBuilding CXX object CMakeFiles/carla_waypoint_types__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_waypoint_types/srv/get_waypoint__type_support.cpp.o[0m
+[4.599s] [ 34%] [32mBuilding CXX object CMakeFiles/carla_waypoint_types__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_waypoint_types/srv/detail/get_waypoint__type_support.cpp.o[0m
+[4.629s] [ 36%] [32mBuilding CXX object CMakeFiles/carla_waypoint_types__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_waypoint_types/srv/detail/get_actor_waypoint__type_support.cpp.o[0m
+[4.629s] [ 38%] [32mBuilding CXX object CMakeFiles/carla_waypoint_types__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_waypoint_types/msg/detail/carla_waypoint__type_support.cpp.o[0m
+[4.688s] [ 40%] [32mBuilding CXX object CMakeFiles/carla_waypoint_types__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_waypoint_types/msg/detail/dds_fastrtps/carla_waypoint__type_support.cpp.o[0m
+[4.699s] [ 42%] [32mBuilding CXX object CMakeFiles/carla_waypoint_types__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_waypoint_types/msg/carla_waypoint__type_support.cpp.o[0m
+[4.708s] [ 44%] [32mBuilding CXX object CMakeFiles/carla_waypoint_types__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_waypoint_types/srv/get_waypoint__type_support.cpp.o[0m
+[4.712s] [ 46%] [32mBuilding CXX object CMakeFiles/carla_waypoint_types__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_waypoint_types/srv/get_actor_waypoint__type_support.cpp.o[0m
+[4.727s] [ 48%] [32mBuilding CXX object CMakeFiles/carla_waypoint_types__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_waypoint_types/srv/detail/dds_fastrtps/get_actor_waypoint__type_support.cpp.o[0m
+[4.740s] [ 51%] [32mBuilding CXX object CMakeFiles/carla_waypoint_types__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_waypoint_types/srv/detail/dds_fastrtps/get_waypoint__type_support.cpp.o[0m
+[4.831s] [ 53%] [32mBuilding CXX object CMakeFiles/carla_waypoint_types__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_waypoint_types/srv/detail/get_actor_waypoint__type_support_c.cpp.o[0m
+[4.840s] [ 55%] [32mBuilding CXX object CMakeFiles/carla_waypoint_types__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_waypoint_types/srv/detail/get_waypoint__type_support_c.cpp.o[0m
+[4.840s] [ 57%] [32mBuilding CXX object CMakeFiles/carla_waypoint_types__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_waypoint_types/msg/detail/carla_waypoint__type_support_c.cpp.o[0m
+[4.889s] [ 59%] [32m[1mLinking CXX shared library libcarla_waypoint_types__rosidl_typesupport_c.so[0m
+[4.914s] [ 61%] [32mBuilding C object CMakeFiles/carla_waypoint_types__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_waypoint_types/msg/detail/carla_waypoint__type_support.c.o[0m
+[4.916s] [ 63%] [32mBuilding C object CMakeFiles/carla_waypoint_types__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_waypoint_types/srv/detail/get_waypoint__type_support.c.o[0m
+[4.929s] [ 65%] [32mBuilding C object CMakeFiles/carla_waypoint_types__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_waypoint_types/srv/detail/get_actor_waypoint__type_support.c.o[0m
+[5.015s] [ 65%] Built target carla_waypoint_types__rosidl_typesupport_c
+[5.180s] [ 68%] [32m[1mLinking C shared library libcarla_waypoint_types__rosidl_typesupport_introspection_c.so[0m
+[5.337s] [ 68%] Built target carla_waypoint_types__rosidl_typesupport_introspection_c
+[5.375s] [ 70%] [32m[1mLinking CXX shared library libcarla_waypoint_types__rosidl_typesupport_cpp.so[0m
+[5.447s] [ 70%] Built target carla_waypoint_types__rosidl_typesupport_cpp
+[5.534s] [ 72%] [32m[1mLinking CXX shared library libcarla_waypoint_types__rosidl_typesupport_fastrtps_c.so[0m
+[5.540s] [ 74%] [32m[1mLinking CXX shared library libcarla_waypoint_types__rosidl_typesupport_introspection_cpp.so[0m
+[5.621s] [ 74%] Built target carla_waypoint_types__rosidl_typesupport_introspection_cpp
+[5.638s] [ 76%] [32m[1mLinking CXX shared library libcarla_waypoint_types__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.670s] [ 76%] Built target carla_waypoint_types__rosidl_typesupport_fastrtps_c
+[5.784s] [ 76%] Built target carla_waypoint_types__rosidl_typesupport_fastrtps_cpp
+[5.807s] [ 76%] Built target carla_waypoint_types
+[5.830s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.611s] [ 78%] Built target carla_waypoint_types__py
+[6.639s] [ 80%] [32mBuilding C object CMakeFiles/carla_waypoint_types__rosidl_generator_py.dir/rosidl_generator_py/carla_waypoint_types/msg/_carla_waypoint_s.c.o[0m
+[6.640s] [ 85%] [32mBuilding C object CMakeFiles/carla_waypoint_types__rosidl_generator_py.dir/rosidl_generator_py/carla_waypoint_types/srv/_get_actor_waypoint_s.c.o[0m
+[6.640s] [ 85%] [32mBuilding C object CMakeFiles/carla_waypoint_types__rosidl_generator_py.dir/rosidl_generator_py/carla_waypoint_types/srv/_get_waypoint_s.c.o[0m
+[6.807s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/carla_waypoint_types/libcarla_waypoint_types__rosidl_generator_py.so[0m
+[6.859s] [ 87%] Built target carla_waypoint_types__rosidl_generator_py
+[6.888s] [ 89%] [32mBuilding C object CMakeFiles/carla_waypoint_types__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/carla_waypoint_types/_carla_waypoint_types_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.890s] [ 91%] [32mBuilding C object CMakeFiles/carla_waypoint_types__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/carla_waypoint_types/_carla_waypoint_types_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.890s] [ 93%] [32mBuilding C object CMakeFiles/carla_waypoint_types__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/carla_waypoint_types/_carla_waypoint_types_s.ep.rosidl_typesupport_c.c.o[0m
+[7.060s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/carla_waypoint_types/carla_waypoint_types_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.061s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/carla_waypoint_types/carla_waypoint_types_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.063s] [100%] [32m[1mLinking C shared library rosidl_generator_py/carla_waypoint_types/carla_waypoint_types_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.122s] [100%] Built target carla_waypoint_types__rosidl_typesupport_c__pyext
+[7.128s] [100%] Built target carla_waypoint_types__rosidl_typesupport_introspection_c__pyext
+[7.152s] [100%] Built target carla_waypoint_types__rosidl_typesupport_fastrtps_c__pyext
+[7.172s] Invoked command in '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_waypoint_types' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_waypoint_types -- -j16 -l16
+[7.789s] Invoking command in '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_waypoint_types': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_waypoint_types
+[7.803s] -- Install configuration: ""
+[7.803s] -- Execute custom install script
+[7.804s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/ament_index/resource_index/rosidl_interfaces/carla_waypoint_types
+[7.822s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/include/carla_waypoint_types/carla_waypoint_types/msg/carla_waypoint.h
+[7.851s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/include/carla_waypoint_types/carla_waypoint_types/msg/detail/carla_waypoint__functions.h
+[7.873s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/include/carla_waypoint_types/carla_waypoint_types/msg/detail/carla_waypoint__struct.h
+[7.895s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/include/carla_waypoint_types/carla_waypoint_types/msg/detail/carla_waypoint__type_support.h
+[7.929s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/include/carla_waypoint_types/carla_waypoint_types/msg/rosidl_generator_c__visibility_control.h
+[7.964s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/include/carla_waypoint_types/carla_waypoint_types/srv/detail/get_actor_waypoint__functions.h
+[7.997s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/include/carla_waypoint_types/carla_waypoint_types/srv/detail/get_actor_waypoint__struct.h
+[8.011s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/include/carla_waypoint_types/carla_waypoint_types/srv/detail/get_actor_waypoint__type_support.h
+[8.025s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/include/carla_waypoint_types/carla_waypoint_types/srv/detail/get_waypoint__functions.h
+[8.038s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/include/carla_waypoint_types/carla_waypoint_types/srv/detail/get_waypoint__struct.h
+[8.053s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/include/carla_waypoint_types/carla_waypoint_types/srv/detail/get_waypoint__type_support.h
+[8.069s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/include/carla_waypoint_types/carla_waypoint_types/srv/get_actor_waypoint.h
+[8.084s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/include/carla_waypoint_types/carla_waypoint_types/srv/get_waypoint.h
+[8.102s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/environment/library_path.sh
+[8.119s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/environment/library_path.dsv
+[8.137s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/include/carla_waypoint_types/carla_waypoint_types/msg/detail/carla_waypoint__rosidl_typesupport_fastrtps_c.h
+[8.166s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/include/carla_waypoint_types/carla_waypoint_types/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.190s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/include/carla_waypoint_types/carla_waypoint_types/srv/detail/get_actor_waypoint__rosidl_typesupport_fastrtps_c.h
+[8.235s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/include/carla_waypoint_types/carla_waypoint_types/srv/detail/get_waypoint__rosidl_typesupport_fastrtps_c.h
+[8.268s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/include/carla_waypoint_types/carla_waypoint_types/msg/carla_waypoint.hpp
+[8.312s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/include/carla_waypoint_types/carla_waypoint_types/msg/detail/carla_waypoint__builder.hpp
+[8.346s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/include/carla_waypoint_types/carla_waypoint_types/msg/detail/carla_waypoint__struct.hpp
+[8.393s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/include/carla_waypoint_types/carla_waypoint_types/msg/detail/carla_waypoint__traits.hpp
+[8.425s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/include/carla_waypoint_types/carla_waypoint_types/srv/detail/get_actor_waypoint__builder.hpp
+[8.446s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/include/carla_waypoint_types/carla_waypoint_types/srv/detail/get_actor_waypoint__struct.hpp
+[8.491s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/include/carla_waypoint_types/carla_waypoint_types/srv/detail/get_actor_waypoint__traits.hpp
+[8.524s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/include/carla_waypoint_types/carla_waypoint_types/srv/detail/get_waypoint__builder.hpp
+[8.548s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/include/carla_waypoint_types/carla_waypoint_types/srv/detail/get_waypoint__struct.hpp
+[8.576s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/include/carla_waypoint_types/carla_waypoint_types/srv/detail/get_waypoint__traits.hpp
+[8.596s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/include/carla_waypoint_types/carla_waypoint_types/srv/get_actor_waypoint.hpp
+[8.613s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/include/carla_waypoint_types/carla_waypoint_types/srv/get_waypoint.hpp
+[8.634s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/include/carla_waypoint_types/carla_waypoint_types/msg/detail/carla_waypoint__rosidl_typesupport_fastrtps_cpp.hpp
+[8.668s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/include/carla_waypoint_types/carla_waypoint_types/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.686s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/include/carla_waypoint_types/carla_waypoint_types/srv/detail/get_actor_waypoint__rosidl_typesupport_fastrtps_cpp.hpp
+[8.703s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/include/carla_waypoint_types/carla_waypoint_types/srv/detail/get_waypoint__rosidl_typesupport_fastrtps_cpp.hpp
+[8.721s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/include/carla_waypoint_types/carla_waypoint_types/msg/detail/carla_waypoint__rosidl_typesupport_introspection_c.h
+[8.744s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/include/carla_waypoint_types/carla_waypoint_types/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.760s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/include/carla_waypoint_types/carla_waypoint_types/srv/detail/get_actor_waypoint__rosidl_typesupport_introspection_c.h
+[8.777s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/include/carla_waypoint_types/carla_waypoint_types/srv/detail/get_waypoint__rosidl_typesupport_introspection_c.h
+[8.792s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/include/carla_waypoint_types/carla_waypoint_types/msg/detail/carla_waypoint__rosidl_typesupport_introspection_cpp.hpp
+[8.807s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/include/carla_waypoint_types/carla_waypoint_types/srv/detail/get_actor_waypoint__rosidl_typesupport_introspection_cpp.hpp
+[8.822s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/include/carla_waypoint_types/carla_waypoint_types/srv/detail/get_waypoint__rosidl_typesupport_introspection_cpp.hpp
+[8.841s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/environment/pythonpath.sh
+[8.857s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/environment/pythonpath.dsv
+[8.887s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/local/lib/python3.10/dist-packages/carla_waypoint_types-0.1.0-py3.10.egg-info/PKG-INFO
+[8.907s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/local/lib/python3.10/dist-packages/carla_waypoint_types-0.1.0-py3.10.egg-info/SOURCES.txt
+[8.928s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/local/lib/python3.10/dist-packages/carla_waypoint_types-0.1.0-py3.10.egg-info/dependency_links.txt
+[8.948s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/local/lib/python3.10/dist-packages/carla_waypoint_types-0.1.0-py3.10.egg-info/top_level.txt
+[8.983s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/local/lib/python3.10/dist-packages/carla_waypoint_types/__init__.py
+[9.009s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/local/lib/python3.10/dist-packages/carla_waypoint_types/_carla_waypoint_types_s.ep.rosidl_typesupport_c.c
+[9.032s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/local/lib/python3.10/dist-packages/carla_waypoint_types/_carla_waypoint_types_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.054s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/local/lib/python3.10/dist-packages/carla_waypoint_types/_carla_waypoint_types_s.ep.rosidl_typesupport_introspection_c.c
+[9.073s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/local/lib/python3.10/dist-packages/carla_waypoint_types/carla_waypoint_types_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.090s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/local/lib/python3.10/dist-packages/carla_waypoint_types/carla_waypoint_types_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.113s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/local/lib/python3.10/dist-packages/carla_waypoint_types/carla_waypoint_types_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.145s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/local/lib/python3.10/dist-packages/carla_waypoint_types/libcarla_waypoint_types__rosidl_generator_py.so
+[9.195s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/local/lib/python3.10/dist-packages/carla_waypoint_types/msg/__init__.py
+[9.215s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/local/lib/python3.10/dist-packages/carla_waypoint_types/msg/_carla_waypoint.py
+[9.234s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/local/lib/python3.10/dist-packages/carla_waypoint_types/msg/_carla_waypoint_s.c
+[9.253s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/local/lib/python3.10/dist-packages/carla_waypoint_types/srv/__init__.py
+[9.275s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/local/lib/python3.10/dist-packages/carla_waypoint_types/srv/_get_actor_waypoint.py
+[9.291s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/local/lib/python3.10/dist-packages/carla_waypoint_types/srv/_get_actor_waypoint_s.c
+[9.318s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/local/lib/python3.10/dist-packages/carla_waypoint_types/srv/_get_waypoint.py
+[9.339s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/local/lib/python3.10/dist-packages/carla_waypoint_types/srv/_get_waypoint_s.c
+[9.359s] -- Up-to-date symlink: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/local/lib/python3.10/dist-packages/carla_waypoint_types/carla_waypoint_types_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.359s] -- Up-to-date symlink: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/local/lib/python3.10/dist-packages/carla_waypoint_types/carla_waypoint_types_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.360s] -- Up-to-date symlink: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/local/lib/python3.10/dist-packages/carla_waypoint_types/carla_waypoint_types_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.360s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/msg/CarlaWaypoint.idl
+[9.389s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/srv/GetWaypoint.idl
+[9.406s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/srv/GetActorWaypoint.idl
+[9.431s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/msg/CarlaWaypoint.msg
+[9.449s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/srv/GetWaypoint.srv
+[9.468s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/srv/GetWaypoint_Request.msg
+[9.487s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/srv/GetWaypoint_Response.msg
+[9.503s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/srv/GetActorWaypoint.srv
+[9.533s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/srv/GetActorWaypoint_Request.msg
+[9.562s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/srv/GetActorWaypoint_Response.msg
+[9.583s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/ament_index/resource_index/package_run_dependencies/carla_waypoint_types
+[9.609s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/ament_index/resource_index/parent_prefix_path/carla_waypoint_types
+[9.643s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/environment/ament_prefix_path.sh
+[9.682s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/environment/ament_prefix_path.dsv
+[9.734s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/environment/path.sh
+[9.759s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/environment/path.dsv
+[9.777s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/local_setup.bash
+[9.807s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/local_setup.sh
+[9.840s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/local_setup.zsh
+[9.869s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/local_setup.dsv
+[9.899s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/package.dsv
+[9.920s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/ament_index/resource_index/packages/carla_waypoint_types
+[9.941s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/rosidl_cmake-extras.cmake
+[9.964s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.982s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.997s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/ament_cmake_export_libraries-extras.cmake
+[10.024s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/ament_cmake_export_targets-extras.cmake
+[10.048s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.082s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.100s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/carla_waypoint_typesConfig.cmake
+[10.118s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/carla_waypoint_typesConfig-version.cmake
+[10.136s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/package.xml
+[10.171s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/lib/libcarla_waypoint_types__rosidl_generator_c.so
+[10.171s] -- Set runtime path of "/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/lib/libcarla_waypoint_types__rosidl_generator_c.so" to ""
+[10.171s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/lib/libcarla_waypoint_types__rosidl_typesupport_fastrtps_c.so
+[10.172s] -- Set runtime path of "/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/lib/libcarla_waypoint_types__rosidl_typesupport_fastrtps_c.so" to ""
+[10.172s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/lib/libcarla_waypoint_types__rosidl_typesupport_fastrtps_cpp.so
+[10.173s] -- Set runtime path of "/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/lib/libcarla_waypoint_types__rosidl_typesupport_fastrtps_cpp.so" to ""
+[10.173s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/lib/libcarla_waypoint_types__rosidl_typesupport_introspection_c.so
+[10.174s] -- Set runtime path of "/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/lib/libcarla_waypoint_types__rosidl_typesupport_introspection_c.so" to ""
+[10.174s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/lib/libcarla_waypoint_types__rosidl_typesupport_c.so
+[10.175s] -- Set runtime path of "/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/lib/libcarla_waypoint_types__rosidl_typesupport_c.so" to ""
+[10.175s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/lib/libcarla_waypoint_types__rosidl_typesupport_introspection_cpp.so
+[10.176s] -- Set runtime path of "/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/lib/libcarla_waypoint_types__rosidl_typesupport_introspection_cpp.so" to ""
+[10.176s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/lib/libcarla_waypoint_types__rosidl_typesupport_cpp.so
+[10.177s] -- Set runtime path of "/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/lib/libcarla_waypoint_types__rosidl_typesupport_cpp.so" to ""
+[10.253s] Listing '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/local/lib/python3.10/dist-packages/carla_waypoint_types'...
+[10.253s] Compiling '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/local/lib/python3.10/dist-packages/carla_waypoint_types/__init__.py'...
+[10.253s] Listing '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/local/lib/python3.10/dist-packages/carla_waypoint_types/msg'...
+[10.253s] Compiling '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/local/lib/python3.10/dist-packages/carla_waypoint_types/msg/__init__.py'...
+[10.253s] Compiling '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/local/lib/python3.10/dist-packages/carla_waypoint_types/msg/_carla_waypoint.py'...
+[10.253s] Listing '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/local/lib/python3.10/dist-packages/carla_waypoint_types/srv'...
+[10.253s] Compiling '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/local/lib/python3.10/dist-packages/carla_waypoint_types/srv/__init__.py'...
+[10.253s] Compiling '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/local/lib/python3.10/dist-packages/carla_waypoint_types/srv/_get_actor_waypoint.py'...
+[10.254s] Compiling '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/local/lib/python3.10/dist-packages/carla_waypoint_types/srv/_get_waypoint.py'...
+[10.262s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/lib/libcarla_waypoint_types__rosidl_generator_py.so
+[10.262s] -- Set runtime path of "/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/lib/libcarla_waypoint_types__rosidl_generator_py.so" to ""
+[10.262s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/export_carla_waypoint_types__rosidl_generator_cExport.cmake
+[10.263s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/export_carla_waypoint_types__rosidl_generator_cExport-noconfig.cmake
+[10.263s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/export_carla_waypoint_types__rosidl_typesupport_fastrtps_cExport.cmake
+[10.263s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/export_carla_waypoint_types__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.264s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/export_carla_waypoint_types__rosidl_generator_cppExport.cmake
+[10.264s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/export_carla_waypoint_types__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.264s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/export_carla_waypoint_types__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.264s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/carla_waypoint_types__rosidl_typesupport_introspection_cExport.cmake
+[10.265s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/carla_waypoint_types__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.265s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/carla_waypoint_types__rosidl_typesupport_cExport.cmake
+[10.265s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/carla_waypoint_types__rosidl_typesupport_cExport-noconfig.cmake
+[10.266s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/carla_waypoint_types__rosidl_typesupport_introspection_cppExport.cmake
+[10.266s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/carla_waypoint_types__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.266s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/carla_waypoint_types__rosidl_typesupport_cppExport.cmake
+[10.267s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/carla_waypoint_types__rosidl_typesupport_cppExport-noconfig.cmake
+[10.267s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/export_carla_waypoint_types__rosidl_generator_pyExport.cmake
+[10.267s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/export_carla_waypoint_types__rosidl_generator_pyExport-noconfig.cmake
+[10.272s] Invoked command in '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_waypoint_types' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_waypoint_types

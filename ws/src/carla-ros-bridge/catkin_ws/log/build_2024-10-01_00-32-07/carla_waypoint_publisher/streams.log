@@ -1,0 +1,27 @@
+[0.739s] Invoking command in '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_waypoint_publisher': AMENT_PREFIX_PATH=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/ros_compatibility:/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/lib:${LD_LIBRARY_PATH} PYTHONPATH=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_waypoint_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_publisher/lib/python3.10/site-packages:/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/ros_compatibility/src:/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/ros_compatibility/lib/python3.10/site-packages:/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_waypoint_publisher/build --no-deps symlink_data
+[1.010s] running develop
+[1.010s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.010s]   warnings.warn(
+[1.197s] running egg_info
+[1.198s] creating src/carla_waypoint_publisher.egg-info
+[1.198s] writing src/carla_waypoint_publisher.egg-info/PKG-INFO
+[1.198s] writing dependency_links to src/carla_waypoint_publisher.egg-info/dependency_links.txt
+[1.198s] writing entry points to src/carla_waypoint_publisher.egg-info/entry_points.txt
+[1.198s] writing requirements to src/carla_waypoint_publisher.egg-info/requires.txt
+[1.198s] writing top-level names to src/carla_waypoint_publisher.egg-info/top_level.txt
+[1.199s] writing manifest file 'src/carla_waypoint_publisher.egg-info/SOURCES.txt'
+[1.200s] reading manifest file 'src/carla_waypoint_publisher.egg-info/SOURCES.txt'
+[1.201s] writing manifest file 'src/carla_waypoint_publisher.egg-info/SOURCES.txt'
+[1.203s] running build_ext
+[1.203s] Creating /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_publisher/lib/python3.10/site-packages/carla-waypoint-publisher.egg-link (link to src)
+[1.203s] Installing carla_waypoint_publisher script to /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_publisher/lib/carla_waypoint_publisher
+[1.204s] 
+[1.204s] Installed /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_waypoint_publisher/src
+[1.204s] running symlink_data
+[1.204s] creating /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_publisher/share/ament_index
+[1.204s] creating /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_publisher/share/ament_index/resource_index
+[1.204s] creating /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_publisher/share/ament_index/resource_index/packages
+[1.205s] symbolically linking /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_waypoint_publisher/resource/carla_waypoint_publisher -> /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_publisher/share/ament_index/resource_index/packages
+[1.205s] symbolically linking /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_waypoint_publisher/package.xml -> /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_publisher/share/carla_waypoint_publisher
+[1.205s] symbolically linking /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_waypoint_publisher/launch/carla_waypoint_publisher.launch.py -> /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_publisher/share/carla_waypoint_publisher
+[1.233s] Invoked command in '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_waypoint_publisher' returned '0': AMENT_PREFIX_PATH=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/ros_compatibility:/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/lib:${LD_LIBRARY_PATH} PYTHONPATH=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_waypoint_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_publisher/lib/python3.10/site-packages:/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/ros_compatibility/src:/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/ros_compatibility/lib/python3.10/site-packages:/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_waypoint_types/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_waypoint_publisher/build --no-deps symlink_data

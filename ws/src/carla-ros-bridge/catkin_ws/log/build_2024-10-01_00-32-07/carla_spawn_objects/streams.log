@@ -1,0 +1,32 @@
+[1.899s] Invoking command in '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_spawn_objects': AMENT_PREFIX_PATH=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/ros_compatibility:/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_spawn_objects/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_spawn_objects/lib/python3.10/site-packages:/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/ros_compatibility/src:/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/ros_compatibility/lib/python3.10/site-packages:/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_spawn_objects/build --no-deps symlink_data
+[2.186s] running develop
+[2.187s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.187s]   warnings.warn(
+[2.383s] running egg_info
+[2.383s] creating carla_spawn_objects.egg-info
+[2.383s] writing carla_spawn_objects.egg-info/PKG-INFO
+[2.383s] writing dependency_links to carla_spawn_objects.egg-info/dependency_links.txt
+[2.383s] writing entry points to carla_spawn_objects.egg-info/entry_points.txt
+[2.383s] writing requirements to carla_spawn_objects.egg-info/requires.txt
+[2.383s] writing top-level names to carla_spawn_objects.egg-info/top_level.txt
+[2.383s] writing manifest file 'carla_spawn_objects.egg-info/SOURCES.txt'
+[2.385s] reading manifest file 'carla_spawn_objects.egg-info/SOURCES.txt'
+[2.386s] writing manifest file 'carla_spawn_objects.egg-info/SOURCES.txt'
+[2.387s] running build_ext
+[2.388s] Creating /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_spawn_objects/lib/python3.10/site-packages/carla-spawn-objects.egg-link (link to .)
+[2.389s] Installing carla_spawn_objects script to /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_spawn_objects/lib/carla_spawn_objects
+[2.389s] Installing set_initial_pose script to /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_spawn_objects/lib/carla_spawn_objects
+[2.389s] 
+[2.389s] Installed /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_spawn_objects
+[2.389s] running symlink_data
+[2.389s] creating /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_spawn_objects/share/ament_index
+[2.390s] creating /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_spawn_objects/share/ament_index/resource_index
+[2.390s] creating /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_spawn_objects/share/ament_index/resource_index/packages
+[2.390s] symbolically linking /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_spawn_objects/resource/carla_spawn_objects -> /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_spawn_objects/share/ament_index/resource_index/packages
+[2.390s] symbolically linking /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_spawn_objects/package.xml -> /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_spawn_objects/share/carla_spawn_objects
+[2.390s] creating /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_spawn_objects/share/carla_spawn_objects/config
+[2.390s] symbolically linking /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_spawn_objects/config/objects.json -> /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_spawn_objects/share/carla_spawn_objects/config
+[2.390s] symbolically linking /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_spawn_objects/launch/set_initial_pose.launch.py -> /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_spawn_objects/share/carla_spawn_objects
+[2.390s] symbolically linking /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_spawn_objects/launch/carla_spawn_objects.launch.py -> /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_spawn_objects/share/carla_spawn_objects
+[2.390s] symbolically linking /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_spawn_objects/launch/carla_example_ego_vehicle.launch.py -> /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_spawn_objects/share/carla_spawn_objects
+[2.430s] Invoked command in '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_spawn_objects' returned '0': AMENT_PREFIX_PATH=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/ros_compatibility:/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_spawn_objects/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_spawn_objects/lib/python3.10/site-packages:/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/ros_compatibility/src:/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/ros_compatibility/lib/python3.10/site-packages:/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_spawn_objects/build --no-deps symlink_data

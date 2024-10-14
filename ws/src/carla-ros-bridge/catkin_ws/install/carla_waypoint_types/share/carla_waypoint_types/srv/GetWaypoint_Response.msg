@@ -1,0 +1,1 @@
+/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_waypoint_types/rosidl_cmake/srv/GetWaypoint_Response.msg

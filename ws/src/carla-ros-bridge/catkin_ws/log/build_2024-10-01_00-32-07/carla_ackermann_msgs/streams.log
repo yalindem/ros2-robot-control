@@ -1,0 +1,311 @@
+[0.629s] Invoking command in '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_ackermann_msgs': AMENT_PREFIX_PATH=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_cpp_examples:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_msgs:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_localization:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_description:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_controller:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/src/carla_ros/carla_ackermann_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs
+[1.187s] -- The C compiler identification is GNU 11.4.0
+[1.188s] -- The CXX compiler identification is GNU 11.4.0
+[1.188s] -- Detecting C compiler ABI info
+[1.188s] -- Detecting C compiler ABI info - done
+[1.188s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.188s] -- Detecting C compile features
+[1.188s] -- Detecting C compile features - done
+[1.188s] -- Detecting CXX compiler ABI info
+[1.188s] -- Detecting CXX compiler ABI info - done
+[1.188s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.188s] -- Detecting CXX compile features
+[1.189s] -- Detecting CXX compile features - done
+[1.189s] -- Found ros_environment: 3.2.2 (/opt/ros/humble/share/ros_environment/cmake)
+[1.189s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.316s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.389s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.447s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.501s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.510s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.523s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.541s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.567s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.592s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[1.631s] -- Found carla_msgs: 1.3.0 (/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/share/carla_msgs/cmake)
+[1.826s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.243s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[2.249s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[2.254s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[2.260s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.846s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.159s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.202s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.208s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.258s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.258s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.258s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.258s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.297s] -- Found PythonExtra: .so  
+[3.468s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[3.474s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[3.480s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.502s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.502s] -- Added test 'lint_cmake' to check CMake code style
+[3.503s] -- Added test 'xmllint' to check XML markup files
+[3.507s] -- Configuring done
+[3.559s] -- Generating done
+[3.562s] -- Build files have been written to: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_ackermann_msgs
+[3.572s] Invoked command in '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_ackermann_msgs' returned '0': AMENT_PREFIX_PATH=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_cpp_examples:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_msgs:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_localization:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_description:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_controller:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/src/carla_ros/carla_ackermann_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs
+[3.574s] Invoking command in '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_ackermann_msgs': AMENT_PREFIX_PATH=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_cpp_examples:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_msgs:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_localization:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_description:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_controller:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_ackermann_msgs -- -j16 -l16
+[3.635s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.641s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.649s] [  3%] Built target ament_cmake_python_symlink_carla_ackermann_msgs
+[3.903s] running egg_info
+[3.903s] creating carla_ackermann_msgs.egg-info
+[3.903s] writing carla_ackermann_msgs.egg-info/PKG-INFO
+[3.904s] writing dependency_links to carla_ackermann_msgs.egg-info/dependency_links.txt
+[3.904s] writing top-level names to carla_ackermann_msgs.egg-info/top_level.txt
+[3.904s] writing manifest file 'carla_ackermann_msgs.egg-info/SOURCES.txt'
+[3.906s] reading manifest file 'carla_ackermann_msgs.egg-info/SOURCES.txt'
+[3.906s] writing manifest file 'carla_ackermann_msgs.egg-info/SOURCES.txt'
+[3.942s] [  3%] Built target ament_cmake_python_build_carla_ackermann_msgs_egg
+[4.252s] [  3%] Built target carla_ackermann_msgs__cpp
+[4.272s] [  4%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.273s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.275s] [  7%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.315s] [ 11%] [32mBuilding C object CMakeFiles/carla_ackermann_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_ackermann_msgs/msg/detail/ego_vehicle_control_maxima__functions.c.o[0m
+[4.315s] [ 11%] [32mBuilding C object CMakeFiles/carla_ackermann_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_ackermann_msgs/msg/detail/ego_vehicle_control_status__functions.c.o[0m
+[4.315s] [ 14%] [32mBuilding C object CMakeFiles/carla_ackermann_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_ackermann_msgs/msg/detail/ego_vehicle_control_target__functions.c.o[0m
+[4.315s] [ 14%] [32mBuilding C object CMakeFiles/carla_ackermann_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_ackermann_msgs/msg/detail/ego_vehicle_control_info__functions.c.o[0m
+[4.316s] [ 15%] [32mBuilding C object CMakeFiles/carla_ackermann_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_ackermann_msgs/msg/detail/ego_vehicle_control_current__functions.c.o[0m
+[4.392s] [ 17%] [32m[1mLinking C shared library libcarla_ackermann_msgs__rosidl_generator_c.so[0m
+[4.434s] [ 17%] Built target carla_ackermann_msgs__rosidl_generator_c
+[4.447s] [ 22%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.447s] [ 22%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.447s] [ 22%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.820s] [ 23%] [32mBuilding CXX object CMakeFiles/carla_ackermann_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_ackermann_msgs/msg/ego_vehicle_control_info__type_support.cpp.o[0m
+[4.820s] [ 25%] [32mBuilding CXX object CMakeFiles/carla_ackermann_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_ackermann_msgs/msg/ego_vehicle_control_maxima__type_support.cpp.o[0m
+[4.820s] [ 26%] [32mBuilding CXX object CMakeFiles/carla_ackermann_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_ackermann_msgs/msg/ego_vehicle_control_target__type_support.cpp.o[0m
+[4.822s] [ 28%] [32mBuilding CXX object CMakeFiles/carla_ackermann_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_ackermann_msgs/msg/ego_vehicle_control_current__type_support.cpp.o[0m
+[4.822s] [ 30%] [32mBuilding CXX object CMakeFiles/carla_ackermann_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_ackermann_msgs/msg/ego_vehicle_control_status__type_support.cpp.o[0m
+[5.010s] [ 31%] [32mBuilding CXX object CMakeFiles/carla_ackermann_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_ackermann_msgs/msg/detail/dds_fastrtps/ego_vehicle_control_info__type_support.cpp.o[0m
+[5.011s] [ 33%] [32mBuilding CXX object CMakeFiles/carla_ackermann_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_ackermann_msgs/msg/detail/dds_fastrtps/ego_vehicle_control_maxima__type_support.cpp.o[0m
+[5.011s] [ 34%] [32mBuilding CXX object CMakeFiles/carla_ackermann_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_ackermann_msgs/msg/detail/dds_fastrtps/ego_vehicle_control_current__type_support.cpp.o[0m
+[5.016s] [ 36%] [32mBuilding CXX object CMakeFiles/carla_ackermann_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_ackermann_msgs/msg/detail/dds_fastrtps/ego_vehicle_control_target__type_support.cpp.o[0m
+[5.021s] [ 38%] [32mBuilding CXX object CMakeFiles/carla_ackermann_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_ackermann_msgs/msg/detail/dds_fastrtps/ego_vehicle_control_status__type_support.cpp.o[0m
+[5.026s] [ 39%] [32mBuilding CXX object CMakeFiles/carla_ackermann_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_ackermann_msgs/msg/ego_vehicle_control_info__type_support.cpp.o[0m
+[5.028s] [ 41%] [32mBuilding CXX object CMakeFiles/carla_ackermann_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_ackermann_msgs/msg/ego_vehicle_control_maxima__type_support.cpp.o[0m
+[5.029s] [ 42%] [32mBuilding CXX object CMakeFiles/carla_ackermann_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_ackermann_msgs/msg/ego_vehicle_control_current__type_support.cpp.o[0m
+[5.040s] [ 44%] [32mBuilding CXX object CMakeFiles/carla_ackermann_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_ackermann_msgs/msg/detail/ego_vehicle_control_info__type_support.cpp.o[0m
+[5.080s] [ 46%] [32mBuilding CXX object CMakeFiles/carla_ackermann_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_ackermann_msgs/msg/ego_vehicle_control_status__type_support.cpp.o[0m
+[5.085s] [ 47%] [32mBuilding CXX object CMakeFiles/carla_ackermann_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_ackermann_msgs/msg/ego_vehicle_control_target__type_support.cpp.o[0m
+[5.128s] [ 49%] [32mBuilding CXX object CMakeFiles/carla_ackermann_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_ackermann_msgs/msg/detail/ego_vehicle_control_current__type_support.cpp.o[0m
+[5.176s] [ 50%] [32m[1mLinking CXX shared library libcarla_ackermann_msgs__rosidl_typesupport_c.so[0m
+[5.241s] [ 52%] [32mBuilding CXX object CMakeFiles/carla_ackermann_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_ackermann_msgs/msg/detail/ego_vehicle_control_maxima__type_support.cpp.o[0m
+[5.259s] [ 53%] [32mBuilding CXX object CMakeFiles/carla_ackermann_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_ackermann_msgs/msg/detail/ego_vehicle_control_status__type_support.cpp.o[0m
+[5.267s] [ 55%] [32mBuilding CXX object CMakeFiles/carla_ackermann_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_ackermann_msgs/msg/detail/ego_vehicle_control_target__type_support.cpp.o[0m
+[5.278s] [ 57%] [32mBuilding CXX object CMakeFiles/carla_ackermann_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_ackermann_msgs/msg/detail/ego_vehicle_control_info__type_support_c.cpp.o[0m
+[5.280s] [ 58%] [32m[1mLinking CXX shared library libcarla_ackermann_msgs__rosidl_typesupport_cpp.so[0m
+[5.288s] [ 60%] [32mBuilding CXX object CMakeFiles/carla_ackermann_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_ackermann_msgs/msg/detail/ego_vehicle_control_maxima__type_support_c.cpp.o[0m
+[5.288s] [ 60%] Built target carla_ackermann_msgs__rosidl_typesupport_c
+[5.288s] [ 61%] [32mBuilding CXX object CMakeFiles/carla_ackermann_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_ackermann_msgs/msg/detail/ego_vehicle_control_current__type_support_c.cpp.o[0m
+[5.295s] [ 63%] [32mBuilding C object CMakeFiles/carla_ackermann_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_ackermann_msgs/msg/detail/ego_vehicle_control_info__type_support.c.o[0m
+[5.305s] [ 65%] [32mBuilding C object CMakeFiles/carla_ackermann_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_ackermann_msgs/msg/detail/ego_vehicle_control_current__type_support.c.o[0m
+[5.385s] [ 66%] [32mBuilding CXX object CMakeFiles/carla_ackermann_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_ackermann_msgs/msg/detail/ego_vehicle_control_status__type_support_c.cpp.o[0m
+[5.392s] [ 68%] [32mBuilding C object CMakeFiles/carla_ackermann_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_ackermann_msgs/msg/detail/ego_vehicle_control_maxima__type_support.c.o[0m
+[5.444s] [ 68%] Built target carla_ackermann_msgs__rosidl_typesupport_cpp
+[5.513s] [ 69%] [32mBuilding C object CMakeFiles/carla_ackermann_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_ackermann_msgs/msg/detail/ego_vehicle_control_status__type_support.c.o[0m
+[5.556s] [ 71%] [32mBuilding CXX object CMakeFiles/carla_ackermann_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_ackermann_msgs/msg/detail/ego_vehicle_control_target__type_support_c.cpp.o[0m
+[5.655s] [ 73%] [32mBuilding C object CMakeFiles/carla_ackermann_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_ackermann_msgs/msg/detail/ego_vehicle_control_target__type_support.c.o[0m
+[5.716s] [ 74%] [32m[1mLinking CXX shared library libcarla_ackermann_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.724s] [ 76%] [32m[1mLinking C shared library libcarla_ackermann_msgs__rosidl_typesupport_introspection_c.so[0m
+[5.797s] [ 76%] Built target carla_ackermann_msgs__rosidl_typesupport_introspection_c
+[5.885s] [ 76%] Built target carla_ackermann_msgs__rosidl_typesupport_fastrtps_cpp
+[5.923s] [ 77%] [32m[1mLinking CXX shared library libcarla_ackermann_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[5.993s] [ 77%] Built target carla_ackermann_msgs__rosidl_typesupport_introspection_cpp
+[6.017s] [ 79%] [32m[1mLinking CXX shared library libcarla_ackermann_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[6.106s] [ 79%] Built target carla_ackermann_msgs__rosidl_typesupport_fastrtps_c
+[6.136s] [ 79%] Built target carla_ackermann_msgs
+[6.172s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.194s] [ 80%] Built target carla_ackermann_msgs__py
+[7.223s] [ 84%] [32mBuilding C object CMakeFiles/carla_ackermann_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_ackermann_msgs/msg/_ego_vehicle_control_maxima_s.c.o[0m
+[7.223s] [ 84%] [32mBuilding C object CMakeFiles/carla_ackermann_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_ackermann_msgs/msg/_ego_vehicle_control_info_s.c.o[0m
+[7.224s] [ 85%] [32mBuilding C object CMakeFiles/carla_ackermann_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_ackermann_msgs/msg/_ego_vehicle_control_current_s.c.o[0m
+[7.228s] [ 87%] [32mBuilding C object CMakeFiles/carla_ackermann_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_ackermann_msgs/msg/_ego_vehicle_control_target_s.c.o[0m
+[7.230s] [ 88%] [32mBuilding C object CMakeFiles/carla_ackermann_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_ackermann_msgs/msg/_ego_vehicle_control_status_s.c.o[0m
+[7.401s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/carla_ackermann_msgs/libcarla_ackermann_msgs__rosidl_generator_py.so[0m
+[7.458s] [ 90%] Built target carla_ackermann_msgs__rosidl_generator_py
+[7.485s] [ 95%] [32mBuilding C object CMakeFiles/carla_ackermann_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/carla_ackermann_msgs/_carla_ackermann_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.485s] [ 95%] [32mBuilding C object CMakeFiles/carla_ackermann_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/carla_ackermann_msgs/_carla_ackermann_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.485s] [ 95%] [32mBuilding C object CMakeFiles/carla_ackermann_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/carla_ackermann_msgs/_carla_ackermann_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[7.620s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/carla_ackermann_msgs/carla_ackermann_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.628s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/carla_ackermann_msgs/carla_ackermann_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.632s] [100%] [32m[1mLinking C shared library rosidl_generator_py/carla_ackermann_msgs/carla_ackermann_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.674s] [100%] Built target carla_ackermann_msgs__rosidl_typesupport_introspection_c__pyext
+[7.683s] [100%] Built target carla_ackermann_msgs__rosidl_typesupport_fastrtps_c__pyext
+[7.689s] [100%] Built target carla_ackermann_msgs__rosidl_typesupport_c__pyext
+[7.705s] Invoked command in '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_ackermann_msgs' returned '0': AMENT_PREFIX_PATH=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_cpp_examples:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_msgs:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_localization:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_description:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_controller:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_ackermann_msgs -- -j16 -l16
+[7.855s] Invoking command in '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_ackermann_msgs': AMENT_PREFIX_PATH=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_cpp_examples:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_msgs:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_localization:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_description:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_controller:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_ackermann_msgs
+[7.863s] -- Install configuration: ""
+[7.864s] -- Execute custom install script
+[7.864s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/ament_index/resource_index/rosidl_interfaces/carla_ackermann_msgs
+[7.875s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_current__functions.h
+[7.885s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_current__struct.h
+[7.896s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_current__type_support.h
+[7.906s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_info__functions.h
+[7.917s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_info__struct.h
+[7.928s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_info__type_support.h
+[7.939s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_maxima__functions.h
+[7.950s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_maxima__struct.h
+[7.961s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_maxima__type_support.h
+[7.973s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_status__functions.h
+[7.984s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_status__struct.h
+[7.995s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_status__type_support.h
+[8.007s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_target__functions.h
+[8.017s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_target__struct.h
+[8.034s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_target__type_support.h
+[8.044s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/ego_vehicle_control_current.h
+[8.055s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/ego_vehicle_control_info.h
+[8.065s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/ego_vehicle_control_maxima.h
+[8.075s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/ego_vehicle_control_status.h
+[8.093s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/ego_vehicle_control_target.h
+[8.102s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/rosidl_generator_c__visibility_control.h
+[8.113s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/environment/library_path.sh
+[8.123s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/environment/library_path.dsv
+[8.134s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_current__rosidl_typesupport_fastrtps_c.h
+[8.143s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_info__rosidl_typesupport_fastrtps_c.h
+[8.158s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_maxima__rosidl_typesupport_fastrtps_c.h
+[8.167s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_status__rosidl_typesupport_fastrtps_c.h
+[8.179s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_target__rosidl_typesupport_fastrtps_c.h
+[8.189s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.199s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_current__builder.hpp
+[8.216s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_current__struct.hpp
+[8.227s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_current__traits.hpp
+[8.244s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_info__builder.hpp
+[8.253s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_info__struct.hpp
+[8.271s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_info__traits.hpp
+[8.281s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_maxima__builder.hpp
+[8.298s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_maxima__struct.hpp
+[8.308s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_maxima__traits.hpp
+[8.325s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_status__builder.hpp
+[8.335s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_status__struct.hpp
+[8.345s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_status__traits.hpp
+[8.362s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_target__builder.hpp
+[8.373s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_target__struct.hpp
+[8.383s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_target__traits.hpp
+[8.399s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/ego_vehicle_control_current.hpp
+[8.410s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/ego_vehicle_control_info.hpp
+[8.420s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/ego_vehicle_control_maxima.hpp
+[8.430s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/ego_vehicle_control_status.hpp
+[8.441s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/ego_vehicle_control_target.hpp
+[8.460s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_current__rosidl_typesupport_fastrtps_cpp.hpp
+[8.477s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_info__rosidl_typesupport_fastrtps_cpp.hpp
+[8.495s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_maxima__rosidl_typesupport_fastrtps_cpp.hpp
+[8.513s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_status__rosidl_typesupport_fastrtps_cpp.hpp
+[8.531s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_target__rosidl_typesupport_fastrtps_cpp.hpp
+[8.548s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.566s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_current__rosidl_typesupport_introspection_c.h
+[8.584s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_info__rosidl_typesupport_introspection_c.h
+[8.602s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_maxima__rosidl_typesupport_introspection_c.h
+[8.621s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_status__rosidl_typesupport_introspection_c.h
+[8.638s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_target__rosidl_typesupport_introspection_c.h
+[8.656s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.674s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_current__rosidl_typesupport_introspection_cpp.hpp
+[8.691s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_info__rosidl_typesupport_introspection_cpp.hpp
+[8.708s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_maxima__rosidl_typesupport_introspection_cpp.hpp
+[8.726s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_status__rosidl_typesupport_introspection_cpp.hpp
+[8.741s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/include/carla_ackermann_msgs/carla_ackermann_msgs/msg/detail/ego_vehicle_control_target__rosidl_typesupport_introspection_cpp.hpp
+[8.758s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/environment/pythonpath.sh
+[8.775s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/environment/pythonpath.dsv
+[8.792s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/local/lib/python3.10/dist-packages/carla_ackermann_msgs-1.0.0-py3.10.egg-info/PKG-INFO
+[8.809s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/local/lib/python3.10/dist-packages/carla_ackermann_msgs-1.0.0-py3.10.egg-info/SOURCES.txt
+[8.827s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/local/lib/python3.10/dist-packages/carla_ackermann_msgs-1.0.0-py3.10.egg-info/dependency_links.txt
+[8.840s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/local/lib/python3.10/dist-packages/carla_ackermann_msgs-1.0.0-py3.10.egg-info/top_level.txt
+[8.858s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/local/lib/python3.10/dist-packages/carla_ackermann_msgs/__init__.py
+[8.875s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/local/lib/python3.10/dist-packages/carla_ackermann_msgs/_carla_ackermann_msgs_s.ep.rosidl_typesupport_c.c
+[8.894s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/local/lib/python3.10/dist-packages/carla_ackermann_msgs/_carla_ackermann_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.912s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/local/lib/python3.10/dist-packages/carla_ackermann_msgs/_carla_ackermann_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[8.931s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/local/lib/python3.10/dist-packages/carla_ackermann_msgs/carla_ackermann_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.948s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/local/lib/python3.10/dist-packages/carla_ackermann_msgs/carla_ackermann_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.958s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/local/lib/python3.10/dist-packages/carla_ackermann_msgs/carla_ackermann_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.975s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/local/lib/python3.10/dist-packages/carla_ackermann_msgs/libcarla_ackermann_msgs__rosidl_generator_py.so
+[8.989s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/local/lib/python3.10/dist-packages/carla_ackermann_msgs/msg/__init__.py
+[8.999s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/local/lib/python3.10/dist-packages/carla_ackermann_msgs/msg/_ego_vehicle_control_current.py
+[9.010s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/local/lib/python3.10/dist-packages/carla_ackermann_msgs/msg/_ego_vehicle_control_current_s.c
+[9.024s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/local/lib/python3.10/dist-packages/carla_ackermann_msgs/msg/_ego_vehicle_control_info.py
+[9.034s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/local/lib/python3.10/dist-packages/carla_ackermann_msgs/msg/_ego_vehicle_control_info_s.c
+[9.051s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/local/lib/python3.10/dist-packages/carla_ackermann_msgs/msg/_ego_vehicle_control_maxima.py
+[9.068s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/local/lib/python3.10/dist-packages/carla_ackermann_msgs/msg/_ego_vehicle_control_maxima_s.c
+[9.086s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/local/lib/python3.10/dist-packages/carla_ackermann_msgs/msg/_ego_vehicle_control_status.py
+[9.104s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/local/lib/python3.10/dist-packages/carla_ackermann_msgs/msg/_ego_vehicle_control_status_s.c
+[9.121s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/local/lib/python3.10/dist-packages/carla_ackermann_msgs/msg/_ego_vehicle_control_target.py
+[9.132s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/local/lib/python3.10/dist-packages/carla_ackermann_msgs/msg/_ego_vehicle_control_target_s.c
+[9.150s] -- Up-to-date symlink: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/local/lib/python3.10/dist-packages/carla_ackermann_msgs/carla_ackermann_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.150s] -- Up-to-date symlink: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/local/lib/python3.10/dist-packages/carla_ackermann_msgs/carla_ackermann_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.150s] -- Up-to-date symlink: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/local/lib/python3.10/dist-packages/carla_ackermann_msgs/carla_ackermann_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.151s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/msg/EgoVehicleControlInfo.idl
+[9.169s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/msg/EgoVehicleControlCurrent.idl
+[9.187s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/msg/EgoVehicleControlMaxima.idl
+[9.204s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/msg/EgoVehicleControlStatus.idl
+[9.222s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/msg/EgoVehicleControlTarget.idl
+[9.232s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/msg/EgoVehicleControlInfo.msg
+[9.243s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/msg/EgoVehicleControlCurrent.msg
+[9.254s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/msg/EgoVehicleControlMaxima.msg
+[9.264s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/msg/EgoVehicleControlStatus.msg
+[9.274s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/msg/EgoVehicleControlTarget.msg
+[9.285s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/ament_index/resource_index/package_run_dependencies/carla_ackermann_msgs
+[9.296s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/ament_index/resource_index/parent_prefix_path/carla_ackermann_msgs
+[9.307s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/environment/ament_prefix_path.sh
+[9.325s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/environment/ament_prefix_path.dsv
+[9.336s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/environment/path.sh
+[9.353s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/environment/path.dsv
+[9.371s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/local_setup.bash
+[9.389s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/local_setup.sh
+[9.407s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/local_setup.zsh
+[9.425s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/local_setup.dsv
+[9.435s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/package.dsv
+[9.452s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/ament_index/resource_index/packages/carla_ackermann_msgs
+[9.470s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/cmake/rosidl_cmake-extras.cmake
+[9.488s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.505s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.523s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[9.534s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[9.552s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.570s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.580s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/cmake/carla_ackermann_msgsConfig.cmake
+[9.598s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/cmake/carla_ackermann_msgsConfig-version.cmake
+[9.616s] -- Symlinking: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/package.xml
+[9.628s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/lib/libcarla_ackermann_msgs__rosidl_generator_c.so
+[9.629s] -- Set runtime path of "/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/lib/libcarla_ackermann_msgs__rosidl_generator_c.so" to ""
+[9.629s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/lib/libcarla_ackermann_msgs__rosidl_typesupport_fastrtps_c.so
+[9.629s] -- Set runtime path of "/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/lib/libcarla_ackermann_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[9.630s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/lib/libcarla_ackermann_msgs__rosidl_typesupport_fastrtps_cpp.so
+[9.630s] -- Set runtime path of "/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/lib/libcarla_ackermann_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.630s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/lib/libcarla_ackermann_msgs__rosidl_typesupport_introspection_c.so
+[9.631s] -- Set runtime path of "/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/lib/libcarla_ackermann_msgs__rosidl_typesupport_introspection_c.so" to ""
+[9.631s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/lib/libcarla_ackermann_msgs__rosidl_typesupport_c.so
+[9.631s] -- Set runtime path of "/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/lib/libcarla_ackermann_msgs__rosidl_typesupport_c.so" to ""
+[9.632s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/lib/libcarla_ackermann_msgs__rosidl_typesupport_introspection_cpp.so
+[9.632s] -- Set runtime path of "/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/lib/libcarla_ackermann_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[9.632s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/lib/libcarla_ackermann_msgs__rosidl_typesupport_cpp.so
+[9.633s] -- Set runtime path of "/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/lib/libcarla_ackermann_msgs__rosidl_typesupport_cpp.so" to ""
+[9.671s] Listing '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/local/lib/python3.10/dist-packages/carla_ackermann_msgs'...
+[9.671s] Compiling '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/local/lib/python3.10/dist-packages/carla_ackermann_msgs/__init__.py'...
+[9.671s] Listing '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/local/lib/python3.10/dist-packages/carla_ackermann_msgs/msg'...
+[9.671s] Compiling '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/local/lib/python3.10/dist-packages/carla_ackermann_msgs/msg/__init__.py'...
+[9.671s] Compiling '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/local/lib/python3.10/dist-packages/carla_ackermann_msgs/msg/_ego_vehicle_control_current.py'...
+[9.671s] Compiling '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/local/lib/python3.10/dist-packages/carla_ackermann_msgs/msg/_ego_vehicle_control_info.py'...
+[9.671s] Compiling '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/local/lib/python3.10/dist-packages/carla_ackermann_msgs/msg/_ego_vehicle_control_maxima.py'...
+[9.671s] Compiling '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/local/lib/python3.10/dist-packages/carla_ackermann_msgs/msg/_ego_vehicle_control_status.py'...
+[9.671s] Compiling '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/local/lib/python3.10/dist-packages/carla_ackermann_msgs/msg/_ego_vehicle_control_target.py'...
+[9.675s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/lib/libcarla_ackermann_msgs__rosidl_generator_py.so
+[9.675s] -- Set runtime path of "/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/lib/libcarla_ackermann_msgs__rosidl_generator_py.so" to ""
+[9.676s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/cmake/export_carla_ackermann_msgs__rosidl_generator_cExport.cmake
+[9.676s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/cmake/export_carla_ackermann_msgs__rosidl_generator_cExport-noconfig.cmake
+[9.676s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/cmake/export_carla_ackermann_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[9.676s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/cmake/export_carla_ackermann_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[9.676s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/cmake/export_carla_ackermann_msgs__rosidl_generator_cppExport.cmake
+[9.677s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/cmake/export_carla_ackermann_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.677s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/cmake/export_carla_ackermann_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[9.677s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/cmake/carla_ackermann_msgs__rosidl_typesupport_introspection_cExport.cmake
+[9.677s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/cmake/carla_ackermann_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.677s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/cmake/carla_ackermann_msgs__rosidl_typesupport_cExport.cmake
+[9.678s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/cmake/carla_ackermann_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[9.678s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/cmake/carla_ackermann_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[9.678s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/cmake/carla_ackermann_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.678s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/cmake/carla_ackermann_msgs__rosidl_typesupport_cppExport.cmake
+[9.679s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/cmake/carla_ackermann_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[9.679s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/cmake/export_carla_ackermann_msgs__rosidl_generator_pyExport.cmake
+[9.679s] -- Installing: /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ackermann_msgs/share/carla_ackermann_msgs/cmake/export_carla_ackermann_msgs__rosidl_generator_pyExport-noconfig.cmake
+[9.683s] Invoked command in '/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_ackermann_msgs' returned '0': AMENT_PREFIX_PATH=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_cpp_examples:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_msgs:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_localization:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_description:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_controller:/home/yalin/workspace/ros2-robot-control/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_ackermann_msgs

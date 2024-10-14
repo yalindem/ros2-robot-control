@@ -1,0 +1,1 @@
+/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_spawn_objects/launch/carla_example_ego_vehicle.launch.py

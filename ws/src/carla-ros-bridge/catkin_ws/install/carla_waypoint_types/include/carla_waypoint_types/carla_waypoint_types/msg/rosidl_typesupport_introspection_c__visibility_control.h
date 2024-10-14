@@ -1,0 +1,1 @@
+/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_waypoint_types/rosidl_typesupport_introspection_c/carla_waypoint_types/msg/rosidl_typesupport_introspection_c__visibility_control.h

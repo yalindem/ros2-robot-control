@@ -1,0 +1,10 @@
+{
+  "package_name": "carla_ackermann_msgs",
+  "non_idl_tuples": [
+    "/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/src/carla_ros/carla_ackermann_msgs:msg/EgoVehicleControlInfo.msg",
+    "/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/src/carla_ros/carla_ackermann_msgs:msg/EgoVehicleControlCurrent.msg",
+    "/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/src/carla_ros/carla_ackermann_msgs:msg/EgoVehicleControlMaxima.msg",
+    "/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/src/carla_ros/carla_ackermann_msgs:msg/EgoVehicleControlStatus.msg",
+    "/media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/src/carla_ros/carla_ackermann_msgs:msg/EgoVehicleControlTarget.msg"
+  ]
+}

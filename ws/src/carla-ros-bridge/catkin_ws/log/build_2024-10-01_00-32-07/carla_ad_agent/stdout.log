@@ -1,0 +1,25 @@
+running develop
+running egg_info
+creating src/carla_ad_agent.egg-info
+writing src/carla_ad_agent.egg-info/PKG-INFO
+writing dependency_links to src/carla_ad_agent.egg-info/dependency_links.txt
+writing entry points to src/carla_ad_agent.egg-info/entry_points.txt
+writing requirements to src/carla_ad_agent.egg-info/requires.txt
+writing top-level names to src/carla_ad_agent.egg-info/top_level.txt
+writing manifest file 'src/carla_ad_agent.egg-info/SOURCES.txt'
+reading manifest file 'src/carla_ad_agent.egg-info/SOURCES.txt'
+writing manifest file 'src/carla_ad_agent.egg-info/SOURCES.txt'
+running build_ext
+Creating /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ad_agent/lib/python3.10/site-packages/carla-ad-agent.egg-link (link to src)
+Installing ad_agent script to /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ad_agent/lib/carla_ad_agent
+Installing local_planner script to /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ad_agent/lib/carla_ad_agent
+Installing testing_waypoints script to /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ad_agent/lib/carla_ad_agent
+
+Installed /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_ad_agent/src
+running symlink_data
+creating /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ad_agent/share/ament_index
+creating /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ad_agent/share/ament_index/resource_index
+creating /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ad_agent/share/ament_index/resource_index/packages
+symbolically linking /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_ad_agent/resource/carla_ad_agent -> /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ad_agent/share/ament_index/resource_index/packages
+symbolically linking /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_ad_agent/package.xml -> /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ad_agent/share/carla_ad_agent
+symbolically linking /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/build/carla_ad_agent/launch/carla_ad_agent.launch.py -> /media/yalin/m2/workspace/carla-ros-bridge/catkin_ws/install/carla_ad_agent/share/carla_ad_agent
